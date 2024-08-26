@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>This is a header</h1>
+    <p id="data"></p>
+</body>
+<script>
+    async function table(){
+        const response  = await fetch('http://localhost:3000/');
+        const data = await response.json();
+        console.log(data)
+    }
+    // table()
+    
+
+    $(document).ready(function(){
+        $.ajax({
+            url: "http://localhost:3000/",
+            method: "GET",
+            success: function(data){
+                console.log(data)
+                let html = `<p>${data}</p>`
+                //data.foreach(stock=>{
+                  //  html+=`<p> ${stock} </p>`
+                //})
+                
+                $('#data').html(html)
+            }
+        })
+    })
+        
+</script>
+</html>

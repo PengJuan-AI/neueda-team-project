@@ -1,5 +1,6 @@
 
 import * as homeService from '../services/homeService.js';
+import path from 'path'
 
 export const getHome = async (req, res) => {
     try {
