@@ -8,7 +8,9 @@
 </head>
 <body>
     <h1>This is a header</h1>
-    <p id="data"></p>
+    <div id="data-container">
+        
+    </div>
 </body>
 <script>
     async function table(){
@@ -25,12 +27,19 @@
             method: "GET",
             success: function(data){
                 console.log(data)
-                let html = `<p>${data}</p>`
-                //data.foreach(stock=>{
-                  //  html+=`<p> ${stock} </p>`
-                //})
-                
-                $('#data').html(html)
+                var table = $('<table></table>');
+                var thead = $('<thead><tr><th>Symbol</th><th>Price</th><th>Quantity</th></tr></thead>');
+                var tbody = $('<tbody></tbody>');
+                $.each(data, function(index, item){
+                    var row = $('<tr></tr>');
+                    row.append('<td>'+item.symbol+'</td>');
+                    row.append('<td>'+item.price+'</td>');
+                    row.append('<td>'+item.quantity+'</td>');
+                    tbody.append(row);
+                });
+                table.append(tbody);
+
+                $('#data-container').append(table);
             }
         })
     })
