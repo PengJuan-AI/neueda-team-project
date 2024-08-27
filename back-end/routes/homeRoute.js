@@ -11,5 +11,6 @@ import * as homeController from '../controllers/homeController.js';
 const router = express.Router();
 
 router.get('/', homeController.getHome);
+router.get('/cal_allocation', homeController.calAllocation);
 
 export default router;

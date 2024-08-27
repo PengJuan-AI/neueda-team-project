@@ -18,6 +18,7 @@ app.use(cors())
 
 // all routes
 app.use('/', homeRoute);
+app.use('/cal_allocation', homeRoute);
 
 app.listen(port, () => {
     console.log(`Server is running on port 3000`);
