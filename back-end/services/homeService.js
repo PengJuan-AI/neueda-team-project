@@ -1,4 +1,3 @@
-// services/artistService.js
 import connection from '../config/db.js';
 
 const getAll = async () => {
@@ -8,5 +7,20 @@ const getAll = async () => {
     return rows;
 };
 
+const getAllCrypto = async () => {
+    const [rows] = await connection.query('SELECT * FROM crypto');
+    return rows;
+};
+
+const getAllStock = async () => {
+    const [rows] = await connection.query('SELECT * FROM stock');
+    return rows;
+};
+
+let symbol='BTC'
+const getCrypto = async (symbol) => {
+    const [rows] = await connection.query('SELECT * FROM crypto WHERE symbol=?', [symbol]);
+    return rows;
+};
 // const calAllocation = (rows)
-export {getAll}
+export {getAll, getAllCrypto, getAllStock}

@@ -25,14 +25,27 @@ export const calAllocation = async(req, res) => {
                 name: assetName[index]
             } 
         }) 
-        // function calValue(dataInput){
-        //     return {
-        //         total_valu: dataInput.reduce((acc,stock) => acc + stock.value*stock.quantity, 0),
-        //     } 
-        // }
         console.log("Allocation:", newDataset)
         res.json(newDataset);
     } catch (error) {
         res.status(500).send(error.message);
     }
 };
+
+export const getCryptoJson = async(req, res)=>{
+    try{
+        const asset = await homeService.getAllCrypto();
+        console.log(asset)
+    }catch{
+        res.status(500).send(error.message)
+    }
+}
+
+export const getStockJson = async(req, res)=>{
+    try{
+        const asset = await homeService.getAllStock();
+        console.log(asset)
+    }catch{
+        res.status(500).send(error.message)
+    }
+}
