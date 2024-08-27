@@ -3,7 +3,7 @@ $(document).ready(function () {
         url: "http://localhost:3000/cal_allocation",
         method: "GET",
         success: function (data) {
-
+            console.log(data)
             getDonutChart(data);
             // $('#donut').append(chart);
         },
@@ -11,9 +11,9 @@ $(document).ready(function () {
             console.log(error);
         }
 
-
     })
 })
+
 $(function getDonutChart(data){
     var donutChart = echarts.init(document.getElementById('donut'));
     var option = {
@@ -49,13 +49,14 @@ $(function getDonutChart(data){
             labelLine: {
               show: false
             },
-            data: [
-              { value: 1048, name: 'Search Engine' },
-              { value: 735, name: 'Direct' },
-              { value: 580, name: 'Email' },
-              { value: 484, name: 'Union Ads' },
-              { value: 300, name: 'Video Ads' }
-            ]
+            data : data
+            // data: [
+            //   { value: 1048, name: 'Search Engine' },
+            //   { value: 735, name: 'Direct' },
+            //   { value: 580, name: 'Email' },
+            //   { value: 484, name: 'Union Ads' },
+            //   { value: 300, name: 'Video Ads' }
+            // ]
           }
         ]
       };
