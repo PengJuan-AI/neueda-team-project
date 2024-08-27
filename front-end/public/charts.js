@@ -4,7 +4,7 @@ $(document).ready(function () {
         method: "GET",
         success: function (data) {
             console.log(data)
-            getDonutChart(data);
+            getDonutChart(data); // draw donut chart
             // $('#donut').append(chart);
         },
         error: function (error) {
@@ -14,7 +14,7 @@ $(document).ready(function () {
     })
 })
 
-$(function getDonutChart(data){
+function getDonutChart(data){
     var donutChart = echarts.init(document.getElementById('donut'));
     var option = {
         tooltip: {
@@ -50,15 +50,8 @@ $(function getDonutChart(data){
               show: false
             },
             data : data
-            // data: [
-            //   { value: 1048, name: 'Search Engine' },
-            //   { value: 735, name: 'Direct' },
-            //   { value: 580, name: 'Email' },
-            //   { value: 484, name: 'Union Ads' },
-            //   { value: 300, name: 'Video Ads' }
-            // ]
           }
         ]
       };
       donutChart.setOption(option);
-});
+};
