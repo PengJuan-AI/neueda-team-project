@@ -1,4 +1,20 @@
-$(function(){
+$(document).ready(function () {
+    $.ajax({
+        url: "http://localhost:3000/cal_allocation",
+        method: "GET",
+        success: function (data) {
+
+            getDonutChart(data);
+            // $('#donut').append(chart);
+        },
+        error: function (error) {
+            console.log(error);
+        }
+
+
+    })
+})
+$(function getDonutChart(data){
     var donutChart = echarts.init(document.getElementById('donut'));
     var option = {
         tooltip: {
