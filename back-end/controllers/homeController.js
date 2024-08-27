@@ -20,7 +20,7 @@ export const calAllocation = async(req, res) => {
         const assetName = ['crypto', 'stock'];
         const newDataset = all.map((arr, index) => {
             return {
-                value: arr.reduce((acc,v) => acc + v.price*v.quantity, 0),
+                value: Math.round(arr.reduce((acc,v) => acc + v.price*v.quantity, 0), -2),
                 // stock_value: arr[1].reduce((acc,v) => acc + v.value*v.quantity, 0)
                 name: assetName[index]
             } 
