@@ -1,0 +1,3522 @@
+[
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-01T23:59:00.0000000Z",
+        "rate_close": 67718.362255427
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-02T23:59:00.0000000Z",
+        "rate_close": 67749.4293799246
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-03T23:59:00.0000000Z",
+        "rate_close": 68806.3090538056
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-04T23:59:00.0000000Z",
+        "rate_close": 70557.3856982159
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-05T23:59:00.0000000Z",
+        "rate_close": 71084.8220286002
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-06T23:59:00.0000000Z",
+        "rate_close": 70760.4505155953
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-07T23:59:00.0000000Z",
+        "rate_close": 69334.8394813419
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-08T23:59:00.0000000Z",
+        "rate_close": 69301.4024388644
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-09T23:59:00.0000000Z",
+        "rate_close": 69645.507725212
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-10T23:59:00.0000000Z",
+        "rate_close": 69508.4080328638
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-11T23:59:00.0000000Z",
+        "rate_close": 67324.5943643023
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-12T23:59:00.0000000Z",
+        "rate_close": 68244.545316306
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-13T23:59:00.0000000Z",
+        "rate_close": 66760.5020022336
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-14T23:59:00.0000000Z",
+        "rate_close": 66012.6166748468
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-15T23:59:00.0000000Z",
+        "rate_close": 66186.5094339649
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-16T23:59:00.0000000Z",
+        "rate_close": 66638.1695659675
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-17T23:59:00.0000000Z",
+        "rate_close": 66483.3982862526
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-18T23:59:00.0000000Z",
+        "rate_close": 65134.6617742931
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-19T23:59:00.0000000Z",
+        "rate_close": 64961.5839465562
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-20T23:59:00.0000000Z",
+        "rate_close": 64814.309307493
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-21T23:59:00.0000000Z",
+        "rate_close": 64082.5788687144
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-22T23:59:00.0000000Z",
+        "rate_close": 64250.1479548226
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-23T23:59:00.0000000Z",
+        "rate_close": 63150.2000607262
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-24T23:59:00.0000000Z",
+        "rate_close": 60268.0395203934
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-25T23:59:00.0000000Z",
+        "rate_close": 61805.6144697807
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-26T23:59:00.0000000Z",
+        "rate_close": 60811.4647527178
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-27T23:59:00.0000000Z",
+        "rate_close": 61613.3364516198
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-28T23:59:00.0000000Z",
+        "rate_close": 60313.5405618784
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-29T23:59:00.0000000Z",
+        "rate_close": 60885.2557748926
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-06-30T23:59:00.0000000Z",
+        "rate_close": 62703.6659081404
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-01T23:59:00.0000000Z",
+        "rate_close": 62855.1145825116
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-02T23:59:00.0000000Z",
+        "rate_close": 62030.0045657249
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-03T23:59:00.0000000Z",
+        "rate_close": 60164.8655192503
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-04T23:59:00.0000000Z",
+        "rate_close": 56980.3488238688
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-05T23:59:00.0000000Z",
+        "rate_close": 56651.8818241685
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-06T23:59:00.0000000Z",
+        "rate_close": 58303.5674053613
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-07T23:59:00.0000000Z",
+        "rate_close": 55844.6188006144
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-08T23:59:00.0000000Z",
+        "rate_close": 56708.6113524925
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-09T23:59:00.0000000Z",
+        "rate_close": 58025.8891879884
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-10T23:59:00.0000000Z",
+        "rate_close": 57758.278774208
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-11T23:59:59.9000000Z",
+        "rate_close": 57269.8733966182
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-12T23:59:59.9000000Z",
+        "rate_close": 57901.2830632186
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-13T23:59:59.9000000Z",
+        "rate_close": 59337.1073070091
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-14T23:59:00.0000000Z",
+        "rate_close": 60780.703386321
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-15T23:59:59.9000000Z",
+        "rate_close": 64756.2649215734
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-16T23:59:59.9000000Z",
+        "rate_close": 65114.4196641069
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-17T23:59:59.9000000Z",
+        "rate_close": 64089.6140250796
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-18T23:59:59.9000000Z",
+        "rate_close": 63909.811864238
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-19T23:59:59.9000000Z",
+        "rate_close": 66757.3669891499
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-20T23:59:00.0000000Z",
+        "rate_close": 67158.7809355806
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-21T23:59:47.4000000Z",
+        "rate_close": 68171.2449818191
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-22T23:59:59.9000000Z",
+        "rate_close": 67622.7871106958
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-23T23:59:00.0000000Z",
+        "rate_close": 65922.6921603007
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-24T23:59:59.9000000Z",
+        "rate_close": 65410.0910849175
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-25T23:59:00.0000000Z",
+        "rate_close": 65782.8137513748
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-26T23:59:00.0000000Z",
+        "rate_close": 67910.0529858906
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-27T23:59:59.9000000Z",
+        "rate_close": 68038.6058546668
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-28T23:59:00.0000000Z",
+        "rate_close": 68271.2050741503
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-29T23:59:00.0000000Z",
+        "rate_close": 66824.350650122
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-30T23:59:00.0000000Z",
+        "rate_close": 66180.5470633755
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-07-31T23:59:00.0000000Z",
+        "rate_close": 64612.9192923651
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-01T23:59:59.9000000Z",
+        "rate_close": 65388.3863938829
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-02T23:59:59.9000000Z",
+        "rate_close": 61365.2573083486
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-03T23:59:59.9000000Z",
+        "rate_close": 60655.0723599777
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-04T23:59:00.0000000Z",
+        "rate_close": 58108.387301555
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-05T23:59:49.1000000Z",
+        "rate_close": 53997.5872086192
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-06T23:59:59.8000000Z",
+        "rate_close": 56046.0962439934
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-07T23:59:59.9000000Z",
+        "rate_close": 55146.6336015225
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-08T23:59:59.9000000Z",
+        "rate_close": 61701.2284266118
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-09T23:59:57.5000000Z",
+        "rate_close": 60856.7459440174
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-10T23:59:59.9000000Z",
+        "rate_close": 60935.1060107214
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-11T23:59:59.9000000Z",
+        "rate_close": 58723.3211772481
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-12T23:59:59.9000000Z",
+        "rate_close": 59357.9657616104
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-13T23:59:59.9000000Z",
+        "rate_close": 60603.9496517372
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-14T23:59:59.9000000Z",
+        "rate_close": 58695.0251187544
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-15T23:59:59.9000000Z",
+        "rate_close": 57551.052000111
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-16T23:59:59.8000000Z",
+        "rate_close": 58890.8476426957
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-17T23:59:46.4000000Z",
+        "rate_close": 59495.1640253395
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-18T23:59:59.9000000Z",
+        "rate_close": 58437.8231165176
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-19T23:59:59.8000000Z",
+        "rate_close": 59467.0194626872
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-20T23:59:59.8000000Z",
+        "rate_close": 59014.7880479352
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-21T23:59:59.8000000Z",
+        "rate_close": 61166.5264717087
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-22T23:59:52.4000000Z",
+        "rate_close": 60383.9355005652
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-23T23:59:59.8000000Z",
+        "rate_close": 64087.5990307613
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-24T23:59:59.8000000Z",
+        "rate_close": 64185.0034243936
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-25T23:59:59.8000000Z",
+        "rate_close": 64247.7411632548
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-26T23:59:47.8000000Z",
+        "rate_close": 62862.5038280603
+    },
+    {
+        "asset_id": "BTC",
+        "time_close": "2024-08-27T09:12:40.5000000Z",
+        "rate_close": 62818.3282266163
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-01T23:59:00.0000000Z",
+        "rate_close": 3812.96332786547
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-02T23:59:00.0000000Z",
+        "rate_close": 3780.21605768669
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-03T23:59:00.0000000Z",
+        "rate_close": 3766.49929440127
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-04T23:59:00.0000000Z",
+        "rate_close": 3811.34374864679
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-05T23:59:00.0000000Z",
+        "rate_close": 3864.05483194219
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-06T23:59:00.0000000Z",
+        "rate_close": 3811.31795640001
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-07T23:59:00.0000000Z",
+        "rate_close": 3677.43946959346
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-08T23:59:00.0000000Z",
+        "rate_close": 3680.97180425876
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-09T23:59:00.0000000Z",
+        "rate_close": 3705.9796951073
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-10T23:59:00.0000000Z",
+        "rate_close": 3666.18398519084
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-11T23:59:00.0000000Z",
+        "rate_close": 3497.76555582433
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-12T23:59:00.0000000Z",
+        "rate_close": 3559.13189875131
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-13T23:59:00.0000000Z",
+        "rate_close": 3469.46454524193
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-14T23:59:00.0000000Z",
+        "rate_close": 3480.13455186395
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-15T23:59:00.0000000Z",
+        "rate_close": 3565.37421995777
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-16T23:59:00.0000000Z",
+        "rate_close": 3621.14473893289
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-17T23:59:00.0000000Z",
+        "rate_close": 3510.859690556
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-18T23:59:00.0000000Z",
+        "rate_close": 3482.72146478491
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-19T23:59:00.0000000Z",
+        "rate_close": 3559.52751005894
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-20T23:59:00.0000000Z",
+        "rate_close": 3510.65740933459
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-21T23:59:00.0000000Z",
+        "rate_close": 3516.28266889887
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-22T23:59:00.0000000Z",
+        "rate_close": 3494.78635837019
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-23T23:59:00.0000000Z",
+        "rate_close": 3418.47392480254
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-24T23:59:00.0000000Z",
+        "rate_close": 3349.86097560254
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-25T23:59:00.0000000Z",
+        "rate_close": 3394.41496004472
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-26T23:59:00.0000000Z",
+        "rate_close": 3369.46603499809
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-27T23:59:00.0000000Z",
+        "rate_close": 3445.2440572154
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-28T23:59:00.0000000Z",
+        "rate_close": 3373.64439404519
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-29T23:59:00.0000000Z",
+        "rate_close": 3373.0669817518
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-06-30T23:59:00.0000000Z",
+        "rate_close": 3434.5388133821
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-01T23:59:00.0000000Z",
+        "rate_close": 3440.16258115253
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-02T23:59:00.0000000Z",
+        "rate_close": 3416.44324130649
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-03T23:59:00.0000000Z",
+        "rate_close": 3293.13594472368
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-04T23:59:00.0000000Z",
+        "rate_close": 3054.73152802116
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-05T23:59:00.0000000Z",
+        "rate_close": 2981.38129228436
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-06T23:59:00.0000000Z",
+        "rate_close": 3069.35520555819
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-07T23:59:00.0000000Z",
+        "rate_close": 2929.69903145125
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-08T23:59:00.0000000Z",
+        "rate_close": 3018.81550222791
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-09T23:59:00.0000000Z",
+        "rate_close": 3064.94953701242
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-10T23:59:00.0000000Z",
+        "rate_close": 3102.49601862874
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-11T23:59:59.9000000Z",
+        "rate_close": 3101.1492306274
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-12T23:59:59.9000000Z",
+        "rate_close": 3132.93542497977
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-13T23:59:59.9000000Z",
+        "rate_close": 3180.60094616996
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-14T23:59:00.0000000Z",
+        "rate_close": 3243.55597605803
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-15T23:59:59.9000000Z",
+        "rate_close": 3485.1421163499
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-16T23:59:59.9000000Z",
+        "rate_close": 3449.19405178691
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-17T23:59:59.9000000Z",
+        "rate_close": 3387.36560666275
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-18T23:59:59.9000000Z",
+        "rate_close": 3422.61413772714
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-19T23:59:59.9000000Z",
+        "rate_close": 3507.47692436326
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-20T23:59:00.0000000Z",
+        "rate_close": 3518.12999427284
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-21T23:59:47.4000000Z",
+        "rate_close": 3535.70784160819
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-22T23:59:59.9000000Z",
+        "rate_close": 3447.12913560674
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-23T23:59:00.0000000Z",
+        "rate_close": 3481.23425876363
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-24T23:59:59.9000000Z",
+        "rate_close": 3334.18169020527
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-25T23:59:00.0000000Z",
+        "rate_close": 3173.69437601821
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-26T23:59:00.0000000Z",
+        "rate_close": 3275.97575289511
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-27T23:59:59.9000000Z",
+        "rate_close": 3245.96411335059
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-28T23:59:00.0000000Z",
+        "rate_close": 3271.39222014951
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-29T23:59:00.0000000Z",
+        "rate_close": 3320.74793909273
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-30T23:59:00.0000000Z",
+        "rate_close": 3278.23196346066
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-07-31T23:59:00.0000000Z",
+        "rate_close": 3230.42874870713
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-01T23:59:59.9000000Z",
+        "rate_close": 3207.72620586392
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-02T23:59:59.9000000Z",
+        "rate_close": 2961.13378202247
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-03T23:59:59.9000000Z",
+        "rate_close": 2901.56255709522
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-04T23:59:00.0000000Z",
+        "rate_close": 2685.76051921233
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-05T23:59:49.1000000Z",
+        "rate_close": 2418.99286853167
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-06T23:59:59.8000000Z",
+        "rate_close": 2462.19209224017
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-07T23:59:59.9000000Z",
+        "rate_close": 2343.22357701127
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-08T23:59:59.9000000Z",
+        "rate_close": 2683.38654860402
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-09T23:59:57.5000000Z",
+        "rate_close": 2599.88136161985
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-10T23:59:59.9000000Z",
+        "rate_close": 2610.51911564135
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-11T23:59:59.9000000Z",
+        "rate_close": 2555.64390991582
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-12T23:59:59.9000000Z",
+        "rate_close": 2722.93024817719
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-13T23:59:59.9000000Z",
+        "rate_close": 2703.19078277475
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-14T23:59:59.9000000Z",
+        "rate_close": 2661.91763007804
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-15T23:59:59.9000000Z",
+        "rate_close": 2570.39778181812
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-16T23:59:59.8000000Z",
+        "rate_close": 2593.37933602736
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-17T23:59:46.4000000Z",
+        "rate_close": 2614.83631666563
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-18T23:59:59.9000000Z",
+        "rate_close": 2612.46325133403
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-19T23:59:59.8000000Z",
+        "rate_close": 2637.44847926096
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-20T23:59:59.8000000Z",
+        "rate_close": 2572.94362527619
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-21T23:59:59.8000000Z",
+        "rate_close": 2631.23550145065
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-22T23:59:52.4000000Z",
+        "rate_close": 2623.25073842717
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-23T23:59:59.8000000Z",
+        "rate_close": 2764.54108892604
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-24T23:59:59.8000000Z",
+        "rate_close": 2770.06025932714
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-25T23:59:59.8000000Z",
+        "rate_close": 2747.20886318581
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-26T23:59:47.8000000Z",
+        "rate_close": 2681.22407446268
+    },
+    {
+        "asset_id": "ETH",
+        "time_close": "2024-08-27T09:12:40.5000000Z",
+        "rate_close": 2684.60782009971
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-01T23:59:00.0000000Z",
+        "rate_close": 601.347528689487
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-02T23:59:00.0000000Z",
+        "rate_close": 602.599466292832
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-03T23:59:00.0000000Z",
+        "rate_close": 626.201371495107
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-04T23:59:00.0000000Z",
+        "rate_close": 686.330821266776
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-05T23:59:00.0000000Z",
+        "rate_close": 698.640825048136
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-06T23:59:00.0000000Z",
+        "rate_close": 710.452312634821
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-07T23:59:00.0000000Z",
+        "rate_close": 683.672084149998
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-08T23:59:00.0000000Z",
+        "rate_close": 682.684829644879
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-09T23:59:00.0000000Z",
+        "rate_close": 673.007846797626
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-10T23:59:00.0000000Z",
+        "rate_close": 624.788402756583
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-11T23:59:00.0000000Z",
+        "rate_close": 602.504271521008
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-12T23:59:00.0000000Z",
+        "rate_close": 619.254162113504
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-13T23:59:00.0000000Z",
+        "rate_close": 599.636900673913
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-14T23:59:00.0000000Z",
+        "rate_close": 603.076463860823
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-15T23:59:00.0000000Z",
+        "rate_close": 607.816229803155
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-16T23:59:00.0000000Z",
+        "rate_close": 610.210237339041
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-17T23:59:00.0000000Z",
+        "rate_close": 604.181395808723
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-18T23:59:00.0000000Z",
+        "rate_close": 588.50468621788
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-19T23:59:00.0000000Z",
+        "rate_close": 599.067480322606
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-20T23:59:00.0000000Z",
+        "rate_close": 587.318819575178
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-21T23:59:00.0000000Z",
+        "rate_close": 585.899168751438
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-22T23:59:00.0000000Z",
+        "rate_close": 590.843181271341
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-23T23:59:00.0000000Z",
+        "rate_close": 577.063165027221
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-24T23:59:00.0000000Z",
+        "rate_close": 567.612000554992
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-25T23:59:00.0000000Z",
+        "rate_close": 578.165371297921
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-26T23:59:00.0000000Z",
+        "rate_close": 572.261020791552
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-27T23:59:00.0000000Z",
+        "rate_close": 580.967149630357
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-28T23:59:00.0000000Z",
+        "rate_close": 566.612776783941
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-29T23:59:00.0000000Z",
+        "rate_close": 569.339623644489
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-06-30T23:59:00.0000000Z",
+        "rate_close": 581.340952373938
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-01T23:59:00.0000000Z",
+        "rate_close": 576.523362932962
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-02T23:59:00.0000000Z",
+        "rate_close": 578.909731576223
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-03T23:59:00.0000000Z",
+        "rate_close": 555.998245829473
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-04T23:59:00.0000000Z",
+        "rate_close": 512.807790503892
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-05T23:59:00.0000000Z",
+        "rate_close": 497.699369149678
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-06T23:59:00.0000000Z",
+        "rate_close": 527.056036761175
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-07T23:59:00.0000000Z",
+        "rate_close": 490.308676689942
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-08T23:59:00.0000000Z",
+        "rate_close": 510.517571186201
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-09T23:59:00.0000000Z",
+        "rate_close": 516.899066486776
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-10T23:59:00.0000000Z",
+        "rate_close": 524.738873401747
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-11T23:59:59.9000000Z",
+        "rate_close": 525.188413947601
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-12T23:59:59.9000000Z",
+        "rate_close": 533.603005781094
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-13T23:59:59.9000000Z",
+        "rate_close": 532.876346752606
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-14T23:59:00.0000000Z",
+        "rate_close": 544.781042652355
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-15T23:59:59.9000000Z",
+        "rate_close": 585.545742557817
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-16T23:59:59.9000000Z",
+        "rate_close": 576.678702514414
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-17T23:59:59.9000000Z",
+        "rate_close": 568.907020282763
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-18T23:59:59.9000000Z",
+        "rate_close": 571.607470333873
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-19T23:59:59.9000000Z",
+        "rate_close": 593.860507640309
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-20T23:59:00.0000000Z",
+        "rate_close": 593.255690909232
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-21T23:59:47.4000000Z",
+        "rate_close": 602.413001010998
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-22T23:59:59.9000000Z",
+        "rate_close": 589.487971054622
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-23T23:59:00.0000000Z",
+        "rate_close": 581.872867396067
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-24T23:59:59.9000000Z",
+        "rate_close": 573.609537447543
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-25T23:59:00.0000000Z",
+        "rate_close": 570.552961313526
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-26T23:59:00.0000000Z",
+        "rate_close": 580.857282722834
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-27T23:59:59.9000000Z",
+        "rate_close": 581.609845474646
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-28T23:59:00.0000000Z",
+        "rate_close": 583.978411536532
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-29T23:59:00.0000000Z",
+        "rate_close": 574.513247656431
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-30T23:59:00.0000000Z",
+        "rate_close": 587.847353233426
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-07-31T23:59:00.0000000Z",
+        "rate_close": 576.318140401878
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-01T23:59:59.9000000Z",
+        "rate_close": 575.806451820161
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-02T23:59:59.9000000Z",
+        "rate_close": 537.402646316241
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-03T23:59:59.9000000Z",
+        "rate_close": 529.013203233286
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-04T23:59:00.0000000Z",
+        "rate_close": 496.606863642245
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-05T23:59:49.1000000Z",
+        "rate_close": 464.037649428026
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-06T23:59:59.8000000Z",
+        "rate_close": 484.995159903803
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-07T23:59:59.9000000Z",
+        "rate_close": 474.938278400165
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-08T23:59:59.9000000Z",
+        "rate_close": 517.222160296274
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-09T23:59:57.5000000Z",
+        "rate_close": 508.939642856297
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-10T23:59:59.9000000Z",
+        "rate_close": 523.193149914727
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-11T23:59:59.9000000Z",
+        "rate_close": 503.445809175792
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-12T23:59:59.9000000Z",
+        "rate_close": 518.323938689554
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-13T23:59:59.9000000Z",
+        "rate_close": 524.263711771656
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-14T23:59:59.9000000Z",
+        "rate_close": 523.505516171888
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-15T23:59:59.9000000Z",
+        "rate_close": 519.312795802741
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-16T23:59:59.8000000Z",
+        "rate_close": 519.828962227683
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-17T23:59:46.4000000Z",
+        "rate_close": 541.757314731496
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-18T23:59:59.9000000Z",
+        "rate_close": 531.250121307633
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-19T23:59:59.8000000Z",
+        "rate_close": 558.76556372929
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-20T23:59:59.8000000Z",
+        "rate_close": 569.42506810931
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-21T23:59:59.8000000Z",
+        "rate_close": 570.221687466186
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-22T23:59:52.4000000Z",
+        "rate_close": 582.980458797314
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-23T23:59:59.8000000Z",
+        "rate_close": 592.122137693672
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-24T23:59:59.8000000Z",
+        "rate_close": 580.782235261788
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-25T23:59:59.8000000Z",
+        "rate_close": 574.149335776273
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-26T23:59:47.8000000Z",
+        "rate_close": 548.524588724358
+    },
+    {
+        "asset_id": "BNB",
+        "time_close": "2024-08-27T09:12:40.5000000Z",
+        "rate_close": 554.319994496401
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-01T23:59:00.0000000Z",
+        "rate_close": 166.008739075856
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-02T23:59:00.0000000Z",
+        "rate_close": 163.10134821968
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-03T23:59:00.0000000Z",
+        "rate_close": 164.932930002593
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-04T23:59:00.0000000Z",
+        "rate_close": 171.79857781896
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-05T23:59:00.0000000Z",
+        "rate_close": 173.430605078809
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-06T23:59:00.0000000Z",
+        "rate_close": 169.933947226721
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-07T23:59:00.0000000Z",
+        "rate_close": 162.43409143262
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-08T23:59:00.0000000Z",
+        "rate_close": 157.741986114065
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-09T23:59:00.0000000Z",
+        "rate_close": 162.140493709897
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-10T23:59:00.0000000Z",
+        "rate_close": 158.972555023688
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-11T23:59:00.0000000Z",
+        "rate_close": 149.403488602726
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-12T23:59:00.0000000Z",
+        "rate_close": 155.154573119091
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-13T23:59:00.0000000Z",
+        "rate_close": 147.346169102837
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-14T23:59:00.0000000Z",
+        "rate_close": 143.098377713537
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-15T23:59:00.0000000Z",
+        "rate_close": 145.397652381074
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-16T23:59:00.0000000Z",
+        "rate_close": 151.141927466776
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-17T23:59:00.0000000Z",
+        "rate_close": 143.174662352127
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-18T23:59:00.0000000Z",
+        "rate_close": 137.36632920371
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-19T23:59:00.0000000Z",
+        "rate_close": 135.675931927474
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-20T23:59:00.0000000Z",
+        "rate_close": 133.462354860177
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-21T23:59:00.0000000Z",
+        "rate_close": 134.583356597625
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-22T23:59:00.0000000Z",
+        "rate_close": 133.676950529838
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-23T23:59:00.0000000Z",
+        "rate_close": 128.517807697492
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-24T23:59:00.0000000Z",
+        "rate_close": 132.159584571466
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-25T23:59:00.0000000Z",
+        "rate_close": 136.549468689038
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-26T23:59:00.0000000Z",
+        "rate_close": 136.723796697248
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-27T23:59:00.0000000Z",
+        "rate_close": 149.502206533218
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-28T23:59:00.0000000Z",
+        "rate_close": 139.732399901892
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-29T23:59:00.0000000Z",
+        "rate_close": 139.995985619277
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-06-30T23:59:00.0000000Z",
+        "rate_close": 146.46317748368
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-01T23:59:00.0000000Z",
+        "rate_close": 146.532605893833
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-02T23:59:00.0000000Z",
+        "rate_close": 153.684405996026
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-03T23:59:00.0000000Z",
+        "rate_close": 140.688481186152
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-04T23:59:00.0000000Z",
+        "rate_close": 127.534945387482
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-05T23:59:00.0000000Z",
+        "rate_close": 134.320700558583
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-06T23:59:00.0000000Z",
+        "rate_close": 143.240142784274
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-07T23:59:00.0000000Z",
+        "rate_close": 131.306321723686
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-08T23:59:00.0000000Z",
+        "rate_close": 139.617142983135
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-09T23:59:00.0000000Z",
+        "rate_close": 141.351873780578
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-10T23:59:00.0000000Z",
+        "rate_close": 142.047957450868
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-11T23:59:59.9000000Z",
+        "rate_close": 135.914701477057
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-12T23:59:59.9000000Z",
+        "rate_close": 139.167620808267
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-13T23:59:59.9000000Z",
+        "rate_close": 142.550711645653
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-14T23:59:00.0000000Z",
+        "rate_close": 147.54281399183
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-15T23:59:59.9000000Z",
+        "rate_close": 159.451507204173
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-16T23:59:59.9000000Z",
+        "rate_close": 160.605278124682
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-17T23:59:59.9000000Z",
+        "rate_close": 155.502740273547
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-18T23:59:59.9000000Z",
+        "rate_close": 159.011656615964
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-19T23:59:59.9000000Z",
+        "rate_close": 169.366426191493
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-20T23:59:00.0000000Z",
+        "rate_close": 173.655754356112
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-21T23:59:47.4000000Z",
+        "rate_close": 184.441714986411
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-22T23:59:59.9000000Z",
+        "rate_close": 179.753256922101
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-23T23:59:00.0000000Z",
+        "rate_close": 172.664518441056
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-24T23:59:59.9000000Z",
+        "rate_close": 177.822292288947
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-25T23:59:00.0000000Z",
+        "rate_close": 171.836787798382
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-26T23:59:00.0000000Z",
+        "rate_close": 183.066962853479
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-27T23:59:59.9000000Z",
+        "rate_close": 184.764439306247
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-28T23:59:00.0000000Z",
+        "rate_close": 184.883473055582
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-29T23:59:00.0000000Z",
+        "rate_close": 182.824053056893
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-30T23:59:00.0000000Z",
+        "rate_close": 179.013285379384
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-07-31T23:59:00.0000000Z",
+        "rate_close": 171.622072222647
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-01T23:59:59.9000000Z",
+        "rate_close": 168.74461023339
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-02T23:59:59.9000000Z",
+        "rate_close": 151.988725264915
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-03T23:59:59.9000000Z",
+        "rate_close": 142.497136512424
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-04T23:59:00.0000000Z",
+        "rate_close": 138.11681052789
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-05T23:59:49.1000000Z",
+        "rate_close": 129.727616320091
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-06T23:59:59.8000000Z",
+        "rate_close": 144.466287670588
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-07T23:59:59.9000000Z",
+        "rate_close": 144.771350755216
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-08T23:59:59.9000000Z",
+        "rate_close": 163.183787720087
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-09T23:59:57.5000000Z",
+        "rate_close": 156.306932440839
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-10T23:59:59.9000000Z",
+        "rate_close": 154.04921872615
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-11T23:59:59.9000000Z",
+        "rate_close": 141.572933657073
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-12T23:59:59.9000000Z",
+        "rate_close": 146.333512151179
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-13T23:59:59.9000000Z",
+        "rate_close": 146.700144495416
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-14T23:59:59.9000000Z",
+        "rate_close": 143.731671060125
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-15T23:59:59.9000000Z",
+        "rate_close": 142.608792368904
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-16T23:59:59.8000000Z",
+        "rate_close": 139.080016836982
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-17T23:59:46.4000000Z",
+        "rate_close": 141.959668243043
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-18T23:59:59.9000000Z",
+        "rate_close": 142.431467121387
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-19T23:59:59.8000000Z",
+        "rate_close": 144.327661127332
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-20T23:59:59.8000000Z",
+        "rate_close": 142.285413659931
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-21T23:59:59.8000000Z",
+        "rate_close": 142.815301633092
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-22T23:59:52.4000000Z",
+        "rate_close": 143.248914488716
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-23T23:59:59.8000000Z",
+        "rate_close": 153.374204468798
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-24T23:59:59.8000000Z",
+        "rate_close": 160.723520916217
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-25T23:59:59.8000000Z",
+        "rate_close": 158.987911668261
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-26T23:59:47.8000000Z",
+        "rate_close": 157.169463375084
+    },
+    {
+        "asset_id": "SOL",
+        "time_close": "2024-08-27T09:12:40.5000000Z",
+        "rate_close": 156.901669054819
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-01T23:59:00.0000000Z",
+        "rate_close": 1.00003880596186
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-02T23:59:00.0000000Z",
+        "rate_close": 0.999977194295227
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-03T23:59:00.0000000Z",
+        "rate_close": 1.00004552003796
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-04T23:59:00.0000000Z",
+        "rate_close": 0.999941325805323
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-05T23:59:00.0000000Z",
+        "rate_close": 0.999945321401319
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-06T23:59:00.0000000Z",
+        "rate_close": 0.999980229057501
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-07T23:59:00.0000000Z",
+        "rate_close": 0.999864743386399
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-08T23:59:00.0000000Z",
+        "rate_close": 1.0000308293444
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-09T23:59:00.0000000Z",
+        "rate_close": 0.999955418014013
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-10T23:59:00.0000000Z",
+        "rate_close": 0.999911446860096
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-11T23:59:00.0000000Z",
+        "rate_close": 0.999988568394334
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-12T23:59:00.0000000Z",
+        "rate_close": 0.999979919183511
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-13T23:59:00.0000000Z",
+        "rate_close": 0.999852460353022
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-14T23:59:00.0000000Z",
+        "rate_close": 1.00006631737734
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-15T23:59:00.0000000Z",
+        "rate_close": 1.00005920452658
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-16T23:59:00.0000000Z",
+        "rate_close": 0.999954528787528
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-17T23:59:00.0000000Z",
+        "rate_close": 1.00011012645828
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-18T23:59:00.0000000Z",
+        "rate_close": 0.999989033154296
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-19T23:59:00.0000000Z",
+        "rate_close": 1.00000988898346
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-20T23:59:00.0000000Z",
+        "rate_close": 0.999874923754936
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-21T23:59:00.0000000Z",
+        "rate_close": 0.999987865193213
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-22T23:59:00.0000000Z",
+        "rate_close": 0.99997523032604
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-23T23:59:00.0000000Z",
+        "rate_close": 0.999889793797963
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-24T23:59:00.0000000Z",
+        "rate_close": 0.99992236502647
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-25T23:59:00.0000000Z",
+        "rate_close": 0.999975620710953
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-26T23:59:00.0000000Z",
+        "rate_close": 0.999767964250433
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-27T23:59:00.0000000Z",
+        "rate_close": 0.999765079253748
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-28T23:59:00.0000000Z",
+        "rate_close": 0.999917213894
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-29T23:59:00.0000000Z",
+        "rate_close": 0.99984270597242
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-06-30T23:59:00.0000000Z",
+        "rate_close": 0.999837437353778
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-01T23:59:00.0000000Z",
+        "rate_close": 0.999898283380156
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-02T23:59:00.0000000Z",
+        "rate_close": 0.999958951021894
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-03T23:59:00.0000000Z",
+        "rate_close": 0.999918473312738
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-04T23:59:00.0000000Z",
+        "rate_close": 0.99990471207121
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-05T23:59:00.0000000Z",
+        "rate_close": 0.999898012177597
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-06T23:59:00.0000000Z",
+        "rate_close": 1.00001226868497
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-07T23:59:00.0000000Z",
+        "rate_close": 0.999832635823766
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-08T23:59:00.0000000Z",
+        "rate_close": 0.999983859594728
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-09T23:59:00.0000000Z",
+        "rate_close": 1.00002059708659
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-10T23:59:00.0000000Z",
+        "rate_close": 0.999992185141871
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-11T23:59:59.9000000Z",
+        "rate_close": 1.00001851366306
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-12T23:59:59.9000000Z",
+        "rate_close": 1.00001346457151
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-13T23:59:59.9000000Z",
+        "rate_close": 1.00006657792468
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-14T23:59:00.0000000Z",
+        "rate_close": 0.999985265032435
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-15T23:59:59.9000000Z",
+        "rate_close": 0.999968843019868
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-16T23:59:59.9000000Z",
+        "rate_close": 0.999990166270876
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-17T23:59:59.9000000Z",
+        "rate_close": 0.999919622848
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-18T23:59:59.9000000Z",
+        "rate_close": 0.999881647655191
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-19T23:59:59.9000000Z",
+        "rate_close": 0.999940823974324
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-20T23:59:00.0000000Z",
+        "rate_close": 0.999837995312971
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-21T23:59:47.4000000Z",
+        "rate_close": 0.999959632555104
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-22T23:59:59.9000000Z",
+        "rate_close": 0.999911323560851
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-23T23:59:00.0000000Z",
+        "rate_close": 0.999897981588647
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-24T23:59:59.9000000Z",
+        "rate_close": 0.999846711369572
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-25T23:59:00.0000000Z",
+        "rate_close": 0.999881798777387
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-26T23:59:00.0000000Z",
+        "rate_close": 1.00000571900457
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-27T23:59:59.9000000Z",
+        "rate_close": 0.99989106423293
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-28T23:59:00.0000000Z",
+        "rate_close": 0.999953600208898
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-29T23:59:00.0000000Z",
+        "rate_close": 0.999871204166031
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-30T23:59:00.0000000Z",
+        "rate_close": 0.999945668030068
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-07-31T23:59:00.0000000Z",
+        "rate_close": 0.999883989720763
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-01T23:59:59.9000000Z",
+        "rate_close": 0.999931049153098
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-02T23:59:59.9000000Z",
+        "rate_close": 1.00000165046719
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-03T23:59:59.9000000Z",
+        "rate_close": 0.999921801070582
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-04T23:59:00.0000000Z",
+        "rate_close": 0.999942524425083
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-05T23:59:49.1000000Z",
+        "rate_close": 0.99990979772537
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-06T23:59:59.8000000Z",
+        "rate_close": 0.999990334617667
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-07T23:59:59.9000000Z",
+        "rate_close": 0.999853034649584
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-08T23:59:59.9000000Z",
+        "rate_close": 0.999918837905417
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-09T23:59:57.5000000Z",
+        "rate_close": 0.99993390218837
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-10T23:59:59.9000000Z",
+        "rate_close": 0.999958203019737
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-11T23:59:59.9000000Z",
+        "rate_close": 0.999904864309996
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-12T23:59:59.9000000Z",
+        "rate_close": 0.999890146253418
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-13T23:59:59.9000000Z",
+        "rate_close": 0.999945050189592
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-14T23:59:59.9000000Z",
+        "rate_close": 1.00000179813522
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-15T23:59:59.9000000Z",
+        "rate_close": 0.999896123003058
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-16T23:59:59.8000000Z",
+        "rate_close": 0.999869937717699
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-17T23:59:46.4000000Z",
+        "rate_close": 0.999910160960516
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-18T23:59:59.9000000Z",
+        "rate_close": 1.00000098546621
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-19T23:59:59.8000000Z",
+        "rate_close": 0.999919043885941
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-20T23:59:59.8000000Z",
+        "rate_close": 0.999951323633736
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-21T23:59:59.8000000Z",
+        "rate_close": 0.99991919413521
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-22T23:59:52.4000000Z",
+        "rate_close": 0.99985288616234
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-23T23:59:59.8000000Z",
+        "rate_close": 0.99986155159996
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-24T23:59:59.8000000Z",
+        "rate_close": 0.999978161296022
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-25T23:59:59.8000000Z",
+        "rate_close": 0.999863666938281
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-26T23:59:47.8000000Z",
+        "rate_close": 0.999924688123949
+    },
+    {
+        "asset_id": "USDC",
+        "time_close": "2024-08-27T09:12:40.5000000Z",
+        "rate_close": 0.999838141665601
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-01T23:59:00.0000000Z",
+        "rate_close": 0.51811581885456
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-02T23:59:00.0000000Z",
+        "rate_close": 0.513364277784484
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-03T23:59:00.0000000Z",
+        "rate_close": 0.519821805687417
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-04T23:59:00.0000000Z",
+        "rate_close": 0.52577867611688
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-05T23:59:00.0000000Z",
+        "rate_close": 0.525626771486093
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-06T23:59:00.0000000Z",
+        "rate_close": 0.521410006251359
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-07T23:59:00.0000000Z",
+        "rate_close": 0.498887337067224
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-08T23:59:00.0000000Z",
+        "rate_close": 0.492727950710088
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-09T23:59:00.0000000Z",
+        "rate_close": 0.498646052178238
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-10T23:59:00.0000000Z",
+        "rate_close": 0.496599703589584
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-11T23:59:00.0000000Z",
+        "rate_close": 0.480212385463041
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-12T23:59:00.0000000Z",
+        "rate_close": 0.491471945392744
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-13T23:59:00.0000000Z",
+        "rate_close": 0.47703890857976
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-14T23:59:00.0000000Z",
+        "rate_close": 0.47437745138269
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-15T23:59:00.0000000Z",
+        "rate_close": 0.490501346943659
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-16T23:59:00.0000000Z",
+        "rate_close": 0.488798143168249
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-17T23:59:00.0000000Z",
+        "rate_close": 0.505231465662747
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-18T23:59:00.0000000Z",
+        "rate_close": 0.49067316190979
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-19T23:59:00.0000000Z",
+        "rate_close": 0.493086161099187
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-20T23:59:00.0000000Z",
+        "rate_close": 0.488568380136548
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-21T23:59:00.0000000Z",
+        "rate_close": 0.488818499909527
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-22T23:59:00.0000000Z",
+        "rate_close": 0.48644227989118
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-23T23:59:00.0000000Z",
+        "rate_close": 0.479458050898382
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-24T23:59:00.0000000Z",
+        "rate_close": 0.474007660468168
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-25T23:59:00.0000000Z",
+        "rate_close": 0.475765114478702
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-26T23:59:00.0000000Z",
+        "rate_close": 0.469486083048034
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-27T23:59:00.0000000Z",
+        "rate_close": 0.474618454710883
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-28T23:59:00.0000000Z",
+        "rate_close": 0.470697211926918
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-29T23:59:00.0000000Z",
+        "rate_close": 0.471849195056943
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-06-30T23:59:00.0000000Z",
+        "rate_close": 0.475453970234118
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-01T23:59:00.0000000Z",
+        "rate_close": 0.476614667738631
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-02T23:59:00.0000000Z",
+        "rate_close": 0.484610793567731
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-03T23:59:00.0000000Z",
+        "rate_close": 0.466829809871316
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-04T23:59:00.0000000Z",
+        "rate_close": 0.43254934347433
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-05T23:59:00.0000000Z",
+        "rate_close": 0.425102161985501
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-06T23:59:00.0000000Z",
+        "rate_close": 0.449004163946061
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-07T23:59:00.0000000Z",
+        "rate_close": 0.419329797959814
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-08T23:59:00.0000000Z",
+        "rate_close": 0.431564704754574
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-09T23:59:00.0000000Z",
+        "rate_close": 0.435706038493738
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-10T23:59:00.0000000Z",
+        "rate_close": 0.43891614390216
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-11T23:59:59.9000000Z",
+        "rate_close": 0.448609230895362
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-12T23:59:59.9000000Z",
+        "rate_close": 0.47440542345599
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-13T23:59:59.9000000Z",
+        "rate_close": 0.52735835454831
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-14T23:59:00.0000000Z",
+        "rate_close": 0.52232654703105
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-15T23:59:59.9000000Z",
+        "rate_close": 0.537439883391858
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-16T23:59:59.9000000Z",
+        "rate_close": 0.583062689738979
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-17T23:59:59.9000000Z",
+        "rate_close": 0.626103424892729
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-18T23:59:59.9000000Z",
+        "rate_close": 0.56943094749185
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-19T23:59:59.9000000Z",
+        "rate_close": 0.573335324116019
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-20T23:59:00.0000000Z",
+        "rate_close": 0.594107871238555
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-21T23:59:47.4000000Z",
+        "rate_close": 0.598067401476349
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-22T23:59:59.9000000Z",
+        "rate_close": 0.606485898746652
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-23T23:59:00.0000000Z",
+        "rate_close": 0.597070933604584
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-24T23:59:59.9000000Z",
+        "rate_close": 0.619694131991138
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-25T23:59:00.0000000Z",
+        "rate_close": 0.599124255036372
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-26T23:59:00.0000000Z",
+        "rate_close": 0.603631741965173
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-27T23:59:59.9000000Z",
+        "rate_close": 0.602401815321772
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-28T23:59:00.0000000Z",
+        "rate_close": 0.601839341165065
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-29T23:59:00.0000000Z",
+        "rate_close": 0.602283199937693
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-30T23:59:00.0000000Z",
+        "rate_close": 0.627178772866462
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-07-31T23:59:00.0000000Z",
+        "rate_close": 0.622351242912559
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-01T23:59:59.9000000Z",
+        "rate_close": 0.595314572598647
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-02T23:59:59.9000000Z",
+        "rate_close": 0.559515107865264
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-03T23:59:59.9000000Z",
+        "rate_close": 0.554323060876983
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-04T23:59:00.0000000Z",
+        "rate_close": 0.52275650781651
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-05T23:59:49.1000000Z",
+        "rate_close": 0.488640775651047
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-06T23:59:59.8000000Z",
+        "rate_close": 0.506271940740435
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-07T23:59:59.9000000Z",
+        "rate_close": 0.600454318556868
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-08T23:59:59.9000000Z",
+        "rate_close": 0.616684601022343
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-09T23:59:57.5000000Z",
+        "rate_close": 0.580803187189128
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-10T23:59:59.9000000Z",
+        "rate_close": 0.584059376697683
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-11T23:59:59.9000000Z",
+        "rate_close": 0.552893530925627
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-12T23:59:59.9000000Z",
+        "rate_close": 0.568479037278024
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-13T23:59:59.9000000Z",
+        "rate_close": 0.577017593656306
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-14T23:59:59.9000000Z",
+        "rate_close": 0.568813551293965
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-15T23:59:59.9000000Z",
+        "rate_close": 0.560803490715854
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-16T23:59:59.8000000Z",
+        "rate_close": 0.563860539783677
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-17T23:59:46.4000000Z",
+        "rate_close": 0.566500162354194
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-18T23:59:59.9000000Z",
+        "rate_close": 0.563167811996136
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-19T23:59:59.8000000Z",
+        "rate_close": 0.598579262576035
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-20T23:59:59.8000000Z",
+        "rate_close": 0.593700945676416
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-21T23:59:59.8000000Z",
+        "rate_close": 0.60014958143806
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-22T23:59:52.4000000Z",
+        "rate_close": 0.597661410175427
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-23T23:59:59.8000000Z",
+        "rate_close": 0.61131492579623
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-24T23:59:59.8000000Z",
+        "rate_close": 0.612955662518168
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-25T23:59:59.8000000Z",
+        "rate_close": 0.60025376787371
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-26T23:59:47.8000000Z",
+        "rate_close": 0.587535064372108
+    },
+    {
+        "asset_id": "XRP",
+        "time_close": "2024-08-27T09:12:55.7000000Z",
+        "rate_close": 0.58961983891266
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-01T23:59:00.0000000Z",
+        "rate_close": 3810.76898146547
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-02T23:59:00.0000000Z",
+        "rate_close": 3779.24152680299
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-03T23:59:00.0000000Z",
+        "rate_close": 3764.5383183564
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-04T23:59:00.0000000Z",
+        "rate_close": 3810.65178820791
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-05T23:59:00.0000000Z",
+        "rate_close": 3864.47669158074
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-06T23:59:00.0000000Z",
+        "rate_close": 3809.11873578244
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-07T23:59:00.0000000Z",
+        "rate_close": 3676.26662289983
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-08T23:59:00.0000000Z",
+        "rate_close": 3678.56121684979
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-09T23:59:00.0000000Z",
+        "rate_close": 3704.09836253004
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-10T23:59:00.0000000Z",
+        "rate_close": 3664.09050895627
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-11T23:59:00.0000000Z",
+        "rate_close": 3497.78736186536
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-12T23:59:00.0000000Z",
+        "rate_close": 3559.08565210932
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-13T23:59:00.0000000Z",
+        "rate_close": 3466.45735356044
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-14T23:59:00.0000000Z",
+        "rate_close": 3479.09578309128
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-15T23:59:00.0000000Z",
+        "rate_close": 3564.42293105292
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-16T23:59:00.0000000Z",
+        "rate_close": 3620.04806674788
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-17T23:59:00.0000000Z",
+        "rate_close": 3510.01694766745
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-18T23:59:00.0000000Z",
+        "rate_close": 3482.1368883796
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-19T23:59:00.0000000Z",
+        "rate_close": 3557.74589537437
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-20T12:24:00.0000000Z",
+        "rate_close": 3601.10426538166
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-21T23:59:00.0000000Z",
+        "rate_close": 3515.01170179184
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-22T23:59:00.0000000Z",
+        "rate_close": 3494.16517421268
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-23T23:59:00.0000000Z",
+        "rate_close": 3416.17154425225
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-24T23:59:00.0000000Z",
+        "rate_close": 3348.66831988527
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-25T23:59:00.0000000Z",
+        "rate_close": 3393.17939649024
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-26T23:59:00.0000000Z",
+        "rate_close": 3375.01264835099
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-27T23:59:00.0000000Z",
+        "rate_close": 3444.30497845368
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-28T23:59:00.0000000Z",
+        "rate_close": 3372.48542049295
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-29T23:59:00.0000000Z",
+        "rate_close": 3371.70320515251
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-06-30T23:59:00.0000000Z",
+        "rate_close": 3432.74052214509
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-01T23:59:00.0000000Z",
+        "rate_close": 3439.75432387915
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-02T23:59:00.0000000Z",
+        "rate_close": 3416.61934665431
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-03T23:59:00.0000000Z",
+        "rate_close": 3293.79640442945
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-04T23:59:00.0000000Z",
+        "rate_close": 3052.41653081607
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-05T23:59:00.0000000Z",
+        "rate_close": 2980.31861751678
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-06T23:59:00.0000000Z",
+        "rate_close": 3065.71402803644
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-07T23:59:00.0000000Z",
+        "rate_close": 2926.8251264216
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-08T23:59:00.0000000Z",
+        "rate_close": 3016.13027003466
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-09T23:59:00.0000000Z",
+        "rate_close": 3062.8886870647
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-10T23:59:00.0000000Z",
+        "rate_close": 3101.74079462111
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-11T23:59:59.9000000Z",
+        "rate_close": 3097.3581126582
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-12T23:59:59.9000000Z",
+        "rate_close": 3131.81037852443
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-13T23:59:59.9000000Z",
+        "rate_close": 3190.34688325037
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-14T23:59:00.0000000Z",
+        "rate_close": 3251.08534656799
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-15T23:59:59.9000000Z",
+        "rate_close": 3490.89791444886
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-16T23:59:59.9000000Z",
+        "rate_close": 3452.02300060529
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-17T23:59:59.9000000Z",
+        "rate_close": 3386.35925378876
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-18T23:59:59.9000000Z",
+        "rate_close": 3422.88957051441
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-19T23:59:59.9000000Z",
+        "rate_close": 3506.14237464692
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-20T23:59:00.0000000Z",
+        "rate_close": 3516.73891486852
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-21T23:59:47.4000000Z",
+        "rate_close": 3535.18358827778
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-22T23:59:59.9000000Z",
+        "rate_close": 3447.10808406174
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-23T23:59:00.0000000Z",
+        "rate_close": 3505.19008883727
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-24T23:59:59.9000000Z",
+        "rate_close": 3332.96065309627
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-25T23:59:00.0000000Z",
+        "rate_close": 3171.91962275315
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-26T23:59:00.0000000Z",
+        "rate_close": 3274.34889574354
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-27T23:59:59.9000000Z",
+        "rate_close": 3245.68226153896
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-28T23:59:00.0000000Z",
+        "rate_close": 3271.12134532061
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-29T23:59:00.0000000Z",
+        "rate_close": 3320.1476233744
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-30T23:59:00.0000000Z",
+        "rate_close": 3301.46756064159
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-07-31T23:59:00.0000000Z",
+        "rate_close": 3230.21695121672
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-01T23:59:59.9000000Z",
+        "rate_close": 3203.5807293349
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-02T23:59:59.9000000Z",
+        "rate_close": 2958.99585732885
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-03T23:59:59.9000000Z",
+        "rate_close": 2899.06060911835
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-04T23:59:00.0000000Z",
+        "rate_close": 2683.37109555621
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-05T23:59:49.1000000Z",
+        "rate_close": 2416.42168898044
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-06T23:59:59.8000000Z",
+        "rate_close": 2460.43656384006
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-07T23:59:59.9000000Z",
+        "rate_close": 2340.50683004138
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-08T23:59:59.9000000Z",
+        "rate_close": 2684.66749149754
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-09T23:59:57.5000000Z",
+        "rate_close": 2599.4591055891
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-10T23:59:59.9000000Z",
+        "rate_close": 2609.34148012955
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-11T23:59:59.9000000Z",
+        "rate_close": 2555.69538782075
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-12T23:59:59.9000000Z",
+        "rate_close": 2722.62376417746
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-13T23:59:59.9000000Z",
+        "rate_close": 2703.66408019456
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-14T23:59:59.9000000Z",
+        "rate_close": 2662.60933292979
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-15T23:59:59.9000000Z",
+        "rate_close": 2570.14907438887
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-16T23:59:59.8000000Z",
+        "rate_close": 2590.84333420244
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-17T23:59:46.4000000Z",
+        "rate_close": 2613.7958431095
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-18T23:59:59.9000000Z",
+        "rate_close": 2610.75669366103
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-19T23:59:59.8000000Z",
+        "rate_close": 2636.31950338665
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-20T23:59:59.8000000Z",
+        "rate_close": 2571.65526075926
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-21T23:59:59.8000000Z",
+        "rate_close": 2630.58871485483
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-22T23:59:52.4000000Z",
+        "rate_close": 2622.43724423317
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-23T23:59:59.8000000Z",
+        "rate_close": 2764.313954346
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-24T23:59:59.8000000Z",
+        "rate_close": 2769.03500899111
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-25T23:59:59.8000000Z",
+        "rate_close": 2746.29720713451
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-26T23:59:47.8000000Z",
+        "rate_close": 2680.24507932724
+    },
+    {
+        "asset_id": "STETH",
+        "time_close": "2024-08-27T09:12:55.7000000Z",
+        "rate_close": 2684.01449051984
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-01T23:59:00.0000000Z",
+        "rate_close": 0.160230466738402
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-02T23:59:00.0000000Z",
+        "rate_close": 0.157145494889524
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-03T23:59:00.0000000Z",
+        "rate_close": 0.158337061775639
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-04T23:59:00.0000000Z",
+        "rate_close": 0.161433811199639
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-05T23:59:00.0000000Z",
+        "rate_close": 0.163103934527056
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-06T23:59:00.0000000Z",
+        "rate_close": 0.160052272461914
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-07T23:59:00.0000000Z",
+        "rate_close": 0.148231024645616
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-08T23:59:00.0000000Z",
+        "rate_close": 0.145908717796454
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-09T23:59:00.0000000Z",
+        "rate_close": 0.146792847869244
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-10T23:59:00.0000000Z",
+        "rate_close": 0.144682663620717
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-11T23:59:00.0000000Z",
+        "rate_close": 0.13810723697249
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-12T23:59:00.0000000Z",
+        "rate_close": 0.146153253578498
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-13T23:59:00.0000000Z",
+        "rate_close": 0.141089897206328
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-14T23:59:00.0000000Z",
+        "rate_close": 0.134955541880176
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-15T23:59:00.0000000Z",
+        "rate_close": 0.136655289058434
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-16T23:59:00.0000000Z",
+        "rate_close": 0.137012989262348
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-17T23:59:00.0000000Z",
+        "rate_close": 0.128772557539412
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-18T23:59:00.0000000Z",
+        "rate_close": 0.122247693359391
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-19T23:59:00.0000000Z",
+        "rate_close": 0.122464473559438
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-20T23:59:00.0000000Z",
+        "rate_close": 0.124428920896107
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-21T23:59:00.0000000Z",
+        "rate_close": 0.124074822179797
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-22T23:59:00.0000000Z",
+        "rate_close": 0.123763086335003
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-23T23:59:00.0000000Z",
+        "rate_close": 0.122266059871553
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-24T23:59:00.0000000Z",
+        "rate_close": 0.118942604891217
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-25T23:59:00.0000000Z",
+        "rate_close": 0.126126318753664
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-26T23:59:00.0000000Z",
+        "rate_close": 0.122717752477161
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-27T23:59:00.0000000Z",
+        "rate_close": 0.126883265618011
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-28T23:59:00.0000000Z",
+        "rate_close": 0.122787568806133
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-29T23:59:00.0000000Z",
+        "rate_close": 0.1217168354427
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-06-30T23:59:00.0000000Z",
+        "rate_close": 0.124284473242223
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-01T23:59:00.0000000Z",
+        "rate_close": 0.12339907333271
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-02T23:59:00.0000000Z",
+        "rate_close": 0.125048122201892
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-03T23:59:00.0000000Z",
+        "rate_close": 0.118399319855804
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-04T23:59:00.0000000Z",
+        "rate_close": 0.10481289874163
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-05T23:59:00.0000000Z",
+        "rate_close": 0.105414880106256
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-06T23:59:00.0000000Z",
+        "rate_close": 0.113633354639264
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-07T23:59:00.0000000Z",
+        "rate_close": 0.104083264987966
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-08T23:59:00.0000000Z",
+        "rate_close": 0.107611908726033
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-09T23:59:00.0000000Z",
+        "rate_close": 0.107520853353519
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-10T23:59:00.0000000Z",
+        "rate_close": 0.108030349928997
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-11T23:59:59.9000000Z",
+        "rate_close": 0.106685787867161
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-12T23:59:59.9000000Z",
+        "rate_close": 0.10764152304708
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-13T23:59:59.9000000Z",
+        "rate_close": 0.112426033128981
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-14T23:59:00.0000000Z",
+        "rate_close": 0.115408135299667
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-15T23:59:59.9000000Z",
+        "rate_close": 0.124966438708043
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-16T23:59:59.9000000Z",
+        "rate_close": 0.124859018946748
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-17T23:59:59.9000000Z",
+        "rate_close": 0.121781768994546
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-18T23:59:59.9000000Z",
+        "rate_close": 0.11950936260399
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-19T23:59:59.9000000Z",
+        "rate_close": 0.125571970711424
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-20T23:59:00.0000000Z",
+        "rate_close": 0.134351604006316
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-21T23:59:47.4000000Z",
+        "rate_close": 0.140195946851279
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-22T23:59:59.9000000Z",
+        "rate_close": 0.138656520410757
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-23T23:59:00.0000000Z",
+        "rate_close": 0.130256816296306
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-24T23:59:59.9000000Z",
+        "rate_close": 0.127896097085636
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-25T23:59:00.0000000Z",
+        "rate_close": 0.125253071201595
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-26T23:59:00.0000000Z",
+        "rate_close": 0.13422683706401
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-27T23:59:59.9000000Z",
+        "rate_close": 0.129993680366501
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-28T23:59:00.0000000Z",
+        "rate_close": 0.13010571909322
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-29T23:59:00.0000000Z",
+        "rate_close": 0.128631635082605
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-30T23:59:00.0000000Z",
+        "rate_close": 0.125448355617776
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-07-31T23:59:00.0000000Z",
+        "rate_close": 0.121902852972254
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-01T23:59:59.9000000Z",
+        "rate_close": 0.119151232324694
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-02T23:59:59.9000000Z",
+        "rate_close": 0.111247584505121
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-03T23:59:59.9000000Z",
+        "rate_close": 0.107898835448506
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-04T23:59:00.0000000Z",
+        "rate_close": 0.103741958468246
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-05T23:59:49.1000000Z",
+        "rate_close": 0.0942977787791904
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-06T23:59:59.8000000Z",
+        "rate_close": 0.0964885740569103
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-07T23:59:59.9000000Z",
+        "rate_close": 0.0955862048367328
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-08T23:59:59.9000000Z",
+        "rate_close": 0.107496544863203
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-09T23:59:57.5000000Z",
+        "rate_close": 0.103901666486108
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-10T23:59:59.9000000Z",
+        "rate_close": 0.105218129255527
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-11T23:59:59.9000000Z",
+        "rate_close": 0.100583696426431
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-12T23:59:59.9000000Z",
+        "rate_close": 0.107923900594433
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-13T23:59:59.9000000Z",
+        "rate_close": 0.106391846727428
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-14T23:59:59.9000000Z",
+        "rate_close": 0.102423201896641
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-15T23:59:59.9000000Z",
+        "rate_close": 0.100224309589819
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-16T23:59:59.8000000Z",
+        "rate_close": 0.100375005191571
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-17T23:59:46.4000000Z",
+        "rate_close": 0.102792288067266
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-18T23:59:59.9000000Z",
+        "rate_close": 0.100058587375154
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-19T23:59:59.8000000Z",
+        "rate_close": 0.101372514943129
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-20T23:59:59.8000000Z",
+        "rate_close": 0.102901359974928
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-21T23:59:59.8000000Z",
+        "rate_close": 0.106174579540123
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-22T23:59:52.4000000Z",
+        "rate_close": 0.105269308938787
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-23T23:59:59.8000000Z",
+        "rate_close": 0.113008205409807
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-24T23:59:59.8000000Z",
+        "rate_close": 0.112638023284547
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-25T23:59:59.8000000Z",
+        "rate_close": 0.109663164040151
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-26T23:59:47.8000000Z",
+        "rate_close": 0.105233570174824
+    },
+    {
+        "asset_id": "DOGE",
+        "time_close": "2024-08-27T09:12:55.7000000Z",
+        "rate_close": 0.1053522621337
+    }
+]
