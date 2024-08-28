@@ -12,5 +12,7 @@ const router = express.Router();
 
 router.get('/', homeController.getHome);
 router.get('/cal_allocation', homeController.calAllocation);
+router.get('/all_crypto', homeController.getCryptoJson);
+router.get('/all_stock', homeController.getStockJson);
 
 export default router;
