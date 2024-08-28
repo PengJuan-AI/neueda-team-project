@@ -6,8 +6,8 @@ USE portfolio_db;
 
 -- Create the 'Crypto' table
 CREATE TABLE Crypto (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    symbol VARCHAR(100) NOT NULL,
+    id INT AUTO_INCREMENT,
+    symbol VARCHAR(100) PRIMARY KEY,
     corp VARCHAR(100),
     price FLOAT,
     quantity FLOAT, -- Change this to FLOAT to allow decimal values
@@ -16,8 +16,8 @@ CREATE TABLE Crypto (
 
 -- Create the 'Stock' table
 CREATE TABLE Stock (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    symbol VARCHAR(100) NOT NULL,
+    id INT AUTO_INCREMENT,
+    symbol VARCHAR(100) PRIMARY KEY,
     corp VARCHAR(100),
     price FLOAT,
     quantity INT,
