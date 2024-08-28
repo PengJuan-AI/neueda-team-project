@@ -45,7 +45,6 @@
             </div>
             <div class="col-10">
                 <div id="donut" style="width: 20rem; height:20rem"></div>
-
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#piechart1">
                     crypto
@@ -63,9 +62,7 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <div class="modal-body">
-                                Here shows the piechart of crypto possession
-                            </div>
+                            <div class="modal-body" id="'body1" style="width: 20rem; height:20rem"></div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
                             </div>
@@ -82,9 +79,7 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <div class="modal-body">
-                                Here shows the piechart of stock possession
-                            </div>
+                            <div class="modal-body" id="body2" style="width: 20rem; height:20rem"></div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
                             </div>
@@ -95,6 +90,7 @@
                 <div id="table-container">
                     <div id="data-container"></div>
                 </div>
+                <div id="PIE"></div>
             </div>
         </div>
     </div>
@@ -108,7 +104,7 @@
     </script>
 <script type="text/javascript" src="./dataFetch.js"></script>
 <script type="text/javascript" src="./charts.js"></script>
-<script>
+<!-- <script>
     window.onload = (event) => {
         const myModal1 = new bootstrap.Modal('#piechart1', {
             backdrop: true
@@ -116,8 +112,9 @@
         const myModal2 = new bootstrap.Modal('#piechart2', {
             backdrop: true
         })
-        // myModal.show()          
+        //$(".modal-body #body1").html("Goodbye world!");
+        $(".modal-body #body2").html("Goodbye world!");
     };
-</script>
-
+</script> -->
+<script src="./scripts/getAllcrypto.js"></script>
 </html>

@@ -1,10 +1,9 @@
 $(document).ready(function () {
     $.ajax({
-        url: "http://localhost:3000/cal_allocation",
+        url: "http://localhost:3000/all_crypto",
         method: "GET",
         success: function (data) {
-            // console.log(data)
-            getDonutChart(data); // draw donut chart
+            getPieChart('piechart1', data);
         },
         error: function (error) {
             console.log(error);
@@ -13,8 +12,26 @@ $(document).ready(function () {
     })
 })
 
-function getDonutChart(data){
-    var donutChart = echarts.init(document.getElementById('donut'));
+$(document).ready(function () {
+    $.ajax({
+        url: "http://localhost:3000/all_stock",
+        method: "GET",
+        success: function (data) {
+            console.log(data)
+            getPieChart('piechart2', data);
+        },
+        error: function (error) {
+            console.log(error);
+        }
+
+    })
+})
+
+function getPieChart(id, data){
+    console.log("Draw pichart")
+    const dom = document.getElementById(id);
+    var pieChart = echarts.init(dom.querySelector('.modal-body'));
+    // var pieChart = echarts.init(document.getElementById('piechart11'));
     var option = {
         tooltip: {
           trigger: 'item'
@@ -27,7 +44,7 @@ function getDonutChart(data){
           {
             name: 'Access From',
             type: 'pie',
-            radius: ['40%', '70%'],
+            //radius: ['40%', '70%'],
             avoidLabelOverlap: false,
             itemStyle: {
               borderRadius: 10,
@@ -40,7 +57,7 @@ function getDonutChart(data){
             },
             emphasis: {
               label: {
-                show: true,
+                show: false,
                 fontSize: 40,
                 fontWeight: 'bold'
               }
@@ -52,5 +69,5 @@ function getDonutChart(data){
           }
         ]
       };
-      donutChart.setOption(option);
+      pieChart.setOption(option);
 };
