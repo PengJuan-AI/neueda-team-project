@@ -30,33 +30,37 @@ const getStockBySymbol = async (symbol) => {
     return rows;
 };
 
-const updateStock = async (symbol, stockData) => {
-    const [price, change_percent] = stockData;
+const changeStockQuantity = async (symbol, stockData) => {
+    const {quantity} = stockData;
+    //console.log(quantity);
     const [rows] = await connection.query(
-        'UPDATE stock SET price = ?, change_percent = ? WHERE symbol = ?',
-        [price, change_percent, symbol]
+        'UPDATE stock SET quantity = ? WHERE symbol = ?',
+        [quantity, symbol]
     );
+    return rows;
 };
 
-const updateAll = () => {
+const refreshAllStockPrice = () => {
     const api_key = ApiClient.instance.authentications['api_key'];
-    api_key.apiKey = "cr6k5i1r01qnuep5u960cr6k5i1r01qnuep5u96g"
-    const finnhubClient = new DefaultApi()
+    api_key.apiKey = "cr6k5i1r01qnuep5u960cr6k5i1r01qnuep5u96g";
+    const finnhubClient = new DefaultApi();
 
-    const symbols = ["NVDA", "TSLA", "INTC", "AMD", "IQ", "SNOW", "AAPL", "BILI", "AMZN", "JD"]
+    const symbols = ["NVDA", "TSLA", "INTC", "AMD", "IQ", "SNOW", "AAPL", "BILI", "AMZN", "JD"];
 
-    // Stock candles
+    // stock candles
     symbols.forEach((symbol) => {
         finnhubClient.quote(symbol, (error, data, response) => {
             if (error) {
                 console.error(`Error fetching data for ${symbol}:`, error);
             } else {
-                const stockData = [data.c, data.dp];
-                updateStock(symbol, stockData);
+                connection.query(
+                    'UPDATE stock SET price = ?, change_percent = ? WHERE symbol = ?',
+                    [data.c, data.dp, symbol]
+                );
             }
         });
     });
 };
 
 // const calAllocation = (rows)
-export { getAll, getAllCrypto, getAllStock, getStockBySymbol, updateStock, updateAll }
+export { getAll, getAllCrypto, getAllStock, getStockBySymbol, changeStockQuantity, refreshAllStockPrice}

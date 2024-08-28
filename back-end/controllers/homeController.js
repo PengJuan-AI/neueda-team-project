@@ -5,7 +5,7 @@ import path from 'path'
 
 export const getHome = async (req, res) => {
     try {
-        homeService.updateAll();
+        homeService.refreshAllStockPrice();
         const all = await homeService.getAll();
         // console.log(all)
         res.json(all);
@@ -75,25 +75,15 @@ export const getStockBySymbol = async (req, res) => {
     }
 }
 
-export const updateStockPrice = async (req, res) => {
+export const changeStockQuantity = async (req, res) => {
     try {
         //console.log(req.params);
-        const api_key = ApiClient.instance.authentications['api_key'];
-        api_key.apiKey = "cr6k5i1r01qnuep5u960cr6k5i1r01qnuep5u96g"
-        const finnhubClient = new DefaultApi()
-
-        // Stock Candles
-        const symbol = req.params.symbol
-        finnhubClient.quote(symbol, (error, data, response) => {
-        if (error) {
-            console.error(error);
+        const changeStockQuantity = await homeService.changeStockQuantity(req.params.symbol, req.body);
+        if (changeStockQuantity) {
+            res.json(changeStockQuantity);
         } else {
-            const stockData = [data.c, data.dp]
-            //console.log(stockData);
-            homeService.updateStock(symbol, stockData);
-            res.status(200).send("Selected Stock updated with latest price!")
-        }
-        });
+            res.status(404).send('Stock not found');
+        };
     } catch (error){
         res.status(500).send(error.message)
     }
