@@ -37,8 +37,8 @@ function getPieChart(id, data){
           trigger: 'item'
         },
         legend: {
-          top: '5%',
-          left: 'center'
+          orient: 'vertical',
+            left: 'left'
         },
         series: [
           {
