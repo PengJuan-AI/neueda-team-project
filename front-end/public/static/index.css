@@ -11,12 +11,10 @@
 }
 
 #logo{
-    width: 80px;
+    width: 150px;
     position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: transparent;
-
+    top: -30px;
+    left: -5px;
 }
 
 .body-container{
