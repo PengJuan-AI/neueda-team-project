@@ -1,5 +1,5 @@
 import allCrypto from './static/cryptoTable.json' with { type: 'json' };
-import allStock from './static/stockData.json' with { type: 'json' };
+import allStock from './static/internationalStockData.json' with { type: 'json' };
 
 
 // allStock = fetchAllStockData()

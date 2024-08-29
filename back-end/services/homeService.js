@@ -1,5 +1,6 @@
 import connection from '../config/db.js';
 import { ApiClient, DefaultApi } from 'finnhub';
+import axios from 'axios';
 
 const getAll = async () => {
     const [crypto] = await connection.query('SELECT * FROM crypto');
@@ -41,26 +42,35 @@ const changeStockQuantity = async (symbol, quantity) => {
 };
 
 const refreshAllStockPrice = () => {
-    const api_key = ApiClient.instance.authentications['api_key'];
-    api_key.apiKey = "cr6k5i1r01qnuep5u960cr6k5i1r01qnuep5u96g";
-    const finnhubClient = new DefaultApi();
+    const symbols = ["600519", "601857", "002594", "300760", "AAPL", "AMZN", "NVDA", "TSLA", "ULVR.L", "HSBA.L"];
+    const apiKey = '942DOP06QJW03OOZ';
+    const baseUrl = 'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&entitlement=delayed&apikey=' + apiKey;
 
-    const symbols = ["NVDA", "TSLA", "INTC", "AMD", "IQ", "SNOW", "AAPL", "BILI", "AMZN", "JD"];
+    symbols.forEach(symbol => {
+        const url = `${baseUrl}&symbol=${symbol}`;
 
-    // stock candles
-    symbols.forEach((symbol) => {
-        finnhubClient.quote(symbol, (error, data, response) => {
-            if (error) {
-                console.error(`Error fetching data for ${symbol}:`, error);
-            } else {
-                connection.query(
-                    'UPDATE stock SET price = ?, change_percent = ? WHERE symbol = ?',
-                    [data.c, data.dp, symbol]
-                );
-            }
-        });
+        axios.get(url, {
+            headers: { 'User-Agent': 'axios' }
+        })
+            .then(response => {
+                if (response.status !== 200) {
+                    console.log('Status:', response.status);
+                } else {
+                    const globalQuote = response.data['Global Quote - DATA DELAYED BY 15 MINUTES'];
+                    const price = globalQuote['05. price'];
+                    const change = globalQuote['10. change percent'];
+                    console.log([symbol, price, change]);
+                    connection.query(
+                        'UPDATE stock SET price = ?, change_percent = ? WHERE symbol = ?',
+                        [price, change, symbol]
+                    );
+                }
+            })
+            .catch(error => {
+                console.log('Error:', error.message);
+            });
     });
 };
 
 // const calAllocation = (rows)
-export { getAll, getAllCrypto, getAllStock, getStockBySymbol, changeStockQuantity, refreshAllStockPrice}
+export { getAll, getAllCrypto, getAllStock, getStockBySymbol, changeStockQuantity, refreshAllStockPrice }
