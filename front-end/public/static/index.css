@@ -1,20 +1,18 @@
 .header-container{
     position:relative;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 30px;
     margin-bottom: 20px;
 }
 
 #sign-out-button{
-    width: 90px;
+    width: 80px;
     position:absolute;
     top:10px;
     right:10px;
 }
 
 .body-container{
-    margin-left: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 #table-container{
@@ -25,7 +23,93 @@
 }
 
 .card{
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+#donut-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#donut{
+    width: 20rem;
+    height:20rem;
+}
+
+#shell1{
+    width:100px;
+    height:auto;
+    transform:rotate(30deg);
+    position: absolute;
+    top: -10px;
+    left:-10px;
+}
+
+#shell2{
+    width:100px;
+    height:auto;
+    transform:rotate(0deg);
+    position:absolute;
+    top: 20px;
+    left:75px;
+}
+
+#shell3{
+    width:100px;
+    height:auto;
+    transform:rotate(-20deg);
+    position:absolute;
+    top: -5px;
+    left:145px;
+}
+
+#shell4{
+    width:100px;
+    height:auto;
+    transform:rotate(10deg);
+    position:absolute;
+    top: 22px;
+    left: 225px;
+}
+
+#shell5{
+    width:100px;
+    height:auto;
+    transform:rotate(30deg);
+    position: absolute;
+    top: 10px;
+    left: 310px;
+}
+
+#shell6{
+    width:100px;
+    height:auto;
+    transform:rotate(30deg);
+}
+
+#shell7{
+    width:100px;
+    height:auto;
+    transform:rotate(30deg);
+}
+
+#shell8{
+    width:100px;
+    height:auto;
+    transform:rotate(30deg);
+}
+
+#shell9{
+    width:100px;
+    height:auto;
+    transform:rotate(30deg);
+}
+
+#shell10{
+    width:100px;
+    height:auto;
+    transform:rotate(30deg);
 }
 
 

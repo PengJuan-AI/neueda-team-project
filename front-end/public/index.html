@@ -17,35 +17,54 @@
 <body>
     <!-- header -->
     <div class="header-container">
-        <div id="header" class="row" style="height: 100px;">
-            <button id="sign-out-button" class="btn btn-primary" type="submit">Sign Out</button>
-            <div class="col-12" style="background-color:blueviolet;">
+        <div id="header" class="row" style="height: 80px;">
+            <button id="sign-out-button" class="btn btn-primary" type="submit">Logout</button>
+            <div class="col-12">
                 <h1>This is a header</h1>
             </div>
         </div>
     </div>
 
-    <!-- Two Cols 2+10 -->
+    <!-- Two Cols 3+9 -->
     <div class="body-container">
         <div class="row">
-            <div class="col-2" style="background-color: rgb(250, 233, 249);">
-                <div class="card">
-                    <img src="./static/Barbie.png" class="card-img-top" alt="photo of Barbie">
-                    <div class="card-body">
-                      <h5 class="card-title" style="text-align: center;">Barbie</h5>
-                      <p class="card-text">Contact: 029xxxxx</p>
-                      <p class="card-text">Age: 18</p>
-                      <p class="card-text">Address: Hollywood Blvd, Los Angeles. CA 90028</p>
-                      <a href="#" class="btn btn-primary">More</a>
+            <div class="col-3" style="background-color: rgb(250, 233, 249); border-radius: 15px;">
+                <div class="card" style="background-color: rgba(0, 0, 0, 0); border: none; ">
+                    <div class="card-img-wrapper" style="display: flex; justify-content: center;">
+                        <img src="./static/Barbie.png" class="card-img-top" alt="photo of Barbie" style="border-radius: 50%;
+                         width: 250px; height: auto;">                         
+                    </div>
+                    <div class="card-body" style="background-color: pink; margin: 30px; border-radius: 15px;">
+                        <h5 class="card-title" style="text-align: center;">Barbie</h5>
+                        <p class="card-text">Contact: 029xxxxx</p>
+                        <p class="card-text">Age: 18</p>
+                        <p class="card-text">Address: Hollywood Blvd, Los Angeles. CA 90028</p>
+                        <a href="#" class="btn btn-primary">More</a>
                     </div>
                   </div>
 
             </div>
-            <div class="col-10">
-                <div id="donut" style="width: 20rem; height:20rem"></div>
-                <div id="table-container">
-                    <div id="data-container"></div>
+            <div class="col-9">
+                <div style="border-radius: 15px; background-color: rgb(250, 233, 249); padding: 10px;">
+                    <div class="row" style="margin: 10px;">
+                        <div id="donut-container" class="col-5" style="border-radius: 15px; background-color: pink;">
+                            <div id="donut"></div>
+                        </div>
+                        <div id="tranparent" class="col-1"></div>
+               
+                        <div id="doc-container" class="col-5" style="border-radius: 15px; background-color: pink; ;">
+                            <p>test</p>
+
+                        </div>
+                    </div>    
+                    
+                    <div id="table-container">
+                        <div id="data-container"></div>
+                    </div>
+                    
+
                 </div>
+                
             </div>
 
         </div>
