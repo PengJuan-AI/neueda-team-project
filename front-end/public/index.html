@@ -23,7 +23,7 @@
         <div id="header" class="row" style="height: 100px;">
             <button id="sign-out-button" class="btn btn-primary" type="submit">Logout</button>
             <div class="col-12">
-                <img id="logo" src="./static/Pisces.svg" >
+                <img id="logo" src="./static/Pisces.svg">
             </div>
         </div>
     </div>
@@ -35,9 +35,10 @@
                 <div class="card" style="background-color: rgba(0, 0, 0, 0); border: none; ">
                     <div class="card-img-wrapper" style="display: flex; justify-content: center;">
                         <img src="./static/Barbie.png" class="card-img-top" alt="photo of Barbie" style="border-radius: 50%;
-                         width: 250px; height: auto;">                         
+                         width: 250px; height: auto;">
                     </div>
-                    <div class="card-body" style="background-color:rgb(254, 132, 179); margin: 30px; border-radius: 15px;">
+                    <div class="card-body"
+                        style="background-color:rgb(254, 132, 179); margin: 30px; border-radius: 15px;">
                         <h4 class="card-title" style="text-align: center;">Barbie</h4>
                         <h6 style="text-align: center;">3.5M followers</h6>
                         <p class="card-text">Contact: (+1)2132735776</p>
@@ -53,71 +54,118 @@
                 <div style="border-radius: 15px; background-color: rgb(253, 199, 222); padding: 10px;">
                     <!-- level 1 -->
                     <div class="row" style="margin: 10px;">
-                        <div class="col-6" >
-                        <div id="donut-container" style="border-radius: 15px; background-color: rgb(252, 222, 220); display: block;
+                        <div class="col-6">
+                            <div id="donut-container" style="border-radius: 15px; background-color: rgb(252, 222, 220); display: block;
                         display: flex; justify-content: center; flex-direction:column;">
-                            <div id="donut" style="width: 20rem; height:20rem"></div>
-                            <div class="button-container" style="margin-bottom: 15px;">
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#piechart1">
-                                    crypto
-                                </button>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#piechart2">
-                                    stock
-                                </button>
-                            </div>
-                        </div>                          
-                        </div>
-                                      
-                        <div  class="col-6" >
-                            <div id="doc-container" style="border-radius: 15px; background-color: rgb(252, 222, 220); padding: 10px;">
-                                <p>test</p>
+                                <div id="donut" style="width: 20rem; height:20rem"></div>
+                                <div class="button-container" style="margin-bottom: 15px;">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#piechart1">
+                                        crypto
+                                    </button>
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#piechart2">
+                                        stock
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                    </div> 
-                    
+
+                        <div class="col-6">
+                            <div id="doc-container"
+                                style="border-radius: 15px; background-color: rgb(252, 222, 220); padding: 10px;">
+                                <h4 class="text-center" style="font-size:25px;color:deepskyblue"><strong>Net Worth</strong></h4>
+                                <form id="myForm" action="/submit" method="post">
+                                    <!-- Select stock -->
+                                    <div id="select-part">
+                                        <select id="stockForm" class="form-select form-select-sm" aria-label="Small select example">
+                                            <option selected>Open this select menu</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <!-- Enter quantity -->
+                                    <div class="form-group" style="justify-content:center;display:flex;">
+                                        <div class="input-group spinner" style="margin: 5px;">
+                                            <button class="btn btn-outline-secondary" type="button" id="decrementButton">-</button>
+                                            <input type="text" class="form-control" value="1" id="numberInput">
+                                            <button class="btn btn-outline-secondary" type="button" id="incrementButton">+</button>
+                                            <!-- <div class="input-group-btn-vertical">
+                                                <button class="btn btn-default" type="button"><i class="fa fa-caret-up"></i></button>
+                                                <button class="btn btn-default" type="button"><i class="fa fa-caret-down"></i></button>
+                                            </div> -->
+                                            <script>
+                                                // Get the input element and buttons
+                                                const numberInput = document.getElementById('numberInput');
+                                                const incrementButton = document.getElementById('incrementButton');
+                                                const decrementButton = document.getElementById('decrementButton');
+                                        
+                                                // Set initial value
+                                                let currentValue = parseInt(numberInput.value, 10);
+                                        
+                                                // Add event listeners to buttons
+                                                incrementButton.addEventListener('click', () => {
+                                                    currentValue++;
+                                                    numberInput.value = currentValue;
+                                                });
+                                        
+                                                decrementButton.addEventListener('click', () => {
+                                                    currentValue--;
+                                                    numberInput.value = currentValue;
+                                                });
+                                            </script>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Confirm</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- level 2 -->
                     <div class="row" style="margin: 10px;">
                         <div class="col-4">
-                        <div id="table1-container" style="border-radius: 15px; background-color: rgb(252, 222, 220); display: block;
+                            <div id="table1-container" style="border-radius: 15px; background-color: rgb(252, 222, 220); display: block;
                         display: flex; justify-content: center; flex-direction:column; margin: 10px;">
-                            <!-- <div id="data-container"></div> -->
-                             <div>
-                             
-                            <div id="table-container1"></div>
+                                <!-- <div id="data-container"></div> -->
+                                <div>
+
+                                    <div id="table-container1"></div>
+                                </div>
                             </div>
-                        </div>
                         </div>
                         <div class="col-8">
                             <div id="line1-container" style="border-radius: 15px; background-color: rgb(252, 222, 220);
                         display: flex; justify-content: center; margin: 10px;">
-                            <div id="linechart1" style="width: 30rem; height:20rem"></div>
-                        </div>
+                                <div id="linechart1" style="width: 30rem; height:20rem"></div>
+                            </div>
                         </div>
                     </div>
 
                     <!-- level 3 -->
                     <div class="row" style="margin: 10px;">
                         <div class="col-4">
-                        <div id="table2-container" style="border-radius: 15px; background-color: rgb(252, 222, 220); display: block;
+                            <div id="table2-container" style="border-radius: 15px; background-color: rgb(252, 222, 220); display: block;
                         display: flex; justify-content: center; flex-direction:column; margin: 10px;">
 
-                            <div id="table-container2"></div>
-                        </div>
+                                <div id="table-container2"></div>
+                            </div>
                         </div>
                         <div class="col-8">
-                        <div id="line1-container" style="border-radius: 15px; background-color: rgb(252, 222, 220); display: block;
+                            <div id="line1-container" style="border-radius: 15px; background-color: rgb(252, 222, 220); display: block;
                         display: flex; justify-content: center;">
-                            <div id="linechart2" style="width: 30rem; height:20rem"></div>
-                        </div>
+                                <div id="linechart2" style="width: 30rem; height:20rem"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Button trigger modal -->
-                
+
                 <!-- crypto piechart modal -->
-                <div class="modal fade" id="piechart1" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal fade" id="piechart1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                    aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -125,7 +173,8 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <div class="modal-body" id="'body1" style="width: 30rem; height:20rem; display: flex; justify-content: center" >
+                            <div class="modal-body" id="'body1"
+                                style="width: 30rem; height:20rem; display: flex; justify-content: center">
 
                             </div>
                             <div class="modal-footer">
@@ -135,8 +184,8 @@
                     </div>
                 </div>
                 <!-- stock pie chart modal -->
-                <div class="modal fade" id="piechart2" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal fade" id="piechart2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                    aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -153,12 +202,12 @@
                 </div>
                 <!-- <div id="table-container2"></div> -->
                 <div id="table-container3"></div>
-                    <!-- <div id="data-container"></div> -->
-                
-                
+                <!-- <div id="data-container"></div> -->
+
+
             </div>
         </div>
-        
+
     </div>
 
 
@@ -170,19 +219,19 @@
     </script>
 <script type="text/javascript" src="./dataFetch.js"></script>
 <script type="text/javascript" src="./charts.js"></script>
-<!-- <script>
-    window.onload = (event) => {
-        const myModal1 = new bootstrap.Modal('#piechart1', {
-            backdrop: true
-        })
-        const myModal2 = new bootstrap.Modal('#piechart2', {
-            backdrop: true
-        })
-        //$(".modal-body #body1").html("Goodbye world!");
-        $(".modal-body #body2").html("Goodbye world!");
-    };
-</script> -->
 <script src="./scripts/getAllcrypto.js"></script>
 <script type="module" src="./linecharts.js"></script>
 <script src="./assetTables.js"></script>
+<script>
+    document.getElementById('myForm').addEventListener('submit', async function(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        const selectValue = document.getElementById('stockForm').value;
+        const inputValue = document.getElementById('numberInput').value;
+
+        console.log(selectValue)
+        console.log(inputValue)
+    });
+</script>
+
 </html>
