@@ -1,4 +1,7 @@
-import allCrypto from './static/cryptoTable.json' with { type: 'json' };
+$(document).ready(function () {
+    drawLine()
+});
+
 // const allData = [{
 //     "symbol": "DCR",
 //     "data": [
@@ -350,7 +353,7 @@ import allCrypto from './static/cryptoTable.json' with { type: 'json' };
 //             "date": "2024-08-26T23:59:47.8000000Z",
 //             "close": 12.003061784762
 //         },
-
+            
 //         {
 //             "date": "2024-08-26T23:59:47.8000000Z",
 //             "close": 12.003061784762
@@ -360,91 +363,85 @@ import allCrypto from './static/cryptoTable.json' with { type: 'json' };
 //             "close": 12.003061784762
 //         }
 //     ]
-
+    
 // }]
 
-// var dateList = []
-function parseData(data) {
-    var dateList = []
-    var valueList = []
-    var symbolList = []
-    data.forEach(asset => {
-        const { symbol, data } = asset;
-        symbolList.push(symbol);
-        dateList = data.map((item) => {
-            return item.date.slice(0, 10);
-        });
-        valueList.push(
-            data.map(function (item) {
-                return Math.round(item.close * 100) / 100;
-            })
-        );
-    })
-    // console.log(dateList)
-    console.log(valueList)
-    return [dateList, valueList, symbolList]
-}
+function drawLine(){
+    // Example valuelist (3, 10, 10)
+const valuelist = [
+    [
+        [10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
+        [15, 25, 35, 45, 55, 65, 75, 85, 95, 105],
+        [20, 30, 40, 50, 60, 70, 80, 90, 100, 110],
+        [25, 35, 45, 55, 65, 75, 85, 95, 105, 115],
+        [30, 40, 50, 60, 70, 80, 90, 100, 110, 120],
+        [35, 45, 55, 65, 75, 85, 95, 105, 115, 125],
+        [40, 50, 60, 70, 80, 90, 100, 110, 120, 130],
+        [45, 55, 65, 75, 85, 95, 105, 115, 125, 135],
+        [50, 60, 70, 80, 90, 100, 110, 120, 130, 140],
+        [55, 65, 75, 85, 95, 105, 115, 125, 135, 145]
+    ],
+    [
+        [12, 22, 32, 42, 52, 62, 72, 82, 92, 102],
+        [17, 27, 37, 47, 57, 67, 77, 87, 97, 107],
+        [22, 32, 42, 52, 62, 72, 82, 92, 102, 112],
+        [27, 37, 47, 57, 67, 77, 87, 97, 107, 117],
+        [32, 42, 52, 62, 72, 82, 92, 102, 112, 122],
+        [37, 47, 57, 67, 77, 87, 97, 107, 117, 127],
+        [42, 52, 62, 72, 82, 92, 102, 112, 122, 132],
+        [47, 57, 67, 77, 87, 97, 107, 117, 127, 137],
+        [52, 62, 72, 82, 92, 102, 112, 122, 132, 142],
+        [57, 67, 77, 87, 97, 107, 117, 127, 137, 147]
+    ],
+    [
+        [14, 24, 34, 44, 54, 64, 74, 84, 94, 104],
+        [19, 29, 39, 49, 59, 69, 79, 89, 99, 109],
+        [24, 34, 44, 54, 64, 74, 84, 94, 104, 114],
+        [29, 39, 49, 59, 69, 79, 89, 99, 109, 119],
+        [34, 44, 54, 64, 74, 84, 94, 104, 114, 124],
+        [39, 49, 59, 69, 79, 89, 99, 109, 119, 129],
+        [44, 54, 64, 74, 84, 94, 104, 114, 124, 134],
+        [49, 59, 69, 79, 89, 99, 109, 119, 129, 139],
+        [54, 64, 74, 84, 94, 104, 114, 124, 134, 144],
+        [59, 69, 79, 89, 99, 109, 119, 129, 139, 149]
+    ]
+];
 
 // Prepare data for ECharts
-function prepareForEcharts(valueList, symbolList){
-    // console.log('get series')
-    const series = valueList.map((data, index) => ({
-        name: `${symbolList[index]}`,
-        type: 'line',
-        data: data
-    }));
-    console.log(series)
-    return series
+const series = valuelist.map((data, index) => ({
+    name: `Series ${index + 1}`,
+    type: 'line',
+    data: data.map(d => d.reduce((sum, value) => sum + value, 0)) // Example: sum of values
+}));
+console.log(series)
+
+// X-axis data
+const xAxisData = Array.from({ length: 10 }, (_, i) => `Point ${i + 1}`);
+
+// Create chart instance
+const chart = echarts.init(document.getElementById('main'));
+
+// Set chart options
+chart.setOption({
+    title: {
+        text: 'Multi-Line Chart'
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data: series.map(s => s.name)
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: xAxisData
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: series
+});
+
+
 }
-
-// function drawLinechart(id, series, date){
-function drawLinechart(id, histData){
-    
-    const [dateList, valueList, symbolList] = parseData(histData)
-    const series = prepareForEcharts(valueList, symbolList)
-    var linechart = echarts.init(document.getElementById(id));
-    var option = {
-        // Make gradient line here
-        title: [
-            {
-                left: 'center',
-                text: 'Gradient along the y axis'
-            },
-        ],
-        legend: {
-            // data: series.map(s => s.name)
-        },
-        tooltip: {
-            trigger: 'axis'
-        },
-        xAxis: {
-            type: 'category',
-            splitline: { show: false },
-            data: dateList
-        },
-        yAxis: {
-            type: 'value',
-            splitLine: {
-                show: false
-            }
-        },
-        grid: [
-            {
-                bottom: '10%',
-                top: '10%'
-            },
-        ],
-        series: series
-        // [
-        //   {type: 'line',showSymbol: false,data: valueList}
-        // ]
-    };
-
-    linechart.setOption(option)
-    // linechart2.setOption(option)
-}
-
-// [dateList, series] = parseData(allCrypto)
-// console.log(series)
-drawLinechart('linechart1', allCrypto)
-drawLinechart('linechart2', allCrypto)
