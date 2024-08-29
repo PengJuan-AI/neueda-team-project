@@ -1,4 +1,5 @@
 import axios from 'axios';
+import fs from 'fs'; // Import the file system module
 
 const symbols = ["NVDA", "TSLA", "INTC", "AMD", "IQ", "SNOW", "AAPL", "BILI", "AMZN", "JD"];
 const apiKey = '942DOP06QJW03OOZ';
@@ -42,11 +43,20 @@ async function fetchAllStockData() {
     for (let symbol of symbols) {
         await getStockData(symbol);
     }
-    console.dir(stockDataList, { depth: null }); 
+    
+    // Write the stock data list to a JSON file
+    fs.writeFile('stockData.json', JSON.stringify(stockDataList, null, 2), (err) => {
+        if (err) {
+            console.error('Error writing to file', err);
+        } else {
+            console.log('Stock data successfully written to stockData.json');
+        }
+    });
+    
     return stockDataList;
 }
 
-fetchAllStockData()
+fetchAllStockData();
 
 // Export the fetchAllStockData function
 export { fetchAllStockData };
