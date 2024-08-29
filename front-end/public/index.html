@@ -77,47 +77,54 @@
                                 <h4 class="text-center" style="font-size:25px;color:deepskyblue"><strong>Net Worth</strong></h4>
                                 <form id="myForm" action="/submit" method="post">
                                     <!-- Select stock -->
-                                    <div id="select-part">
-                                        <select id="stockForm" class="form-select form-select-sm" aria-label="Small select example">
-                                            <option selected>Open this select menu</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
-                                    </div>
-                                    <!-- Enter quantity -->
-                                    <div class="form-group" style="justify-content:center;display:flex;">
-                                        <div class="input-group spinner" style="margin: 5px;">
-                                            <button class="btn btn-outline-secondary" type="button" id="decrementButton">-</button>
-                                            <input type="text" class="form-control" value="1" id="numberInput">
-                                            <button class="btn btn-outline-secondary" type="button" id="incrementButton">+</button>
-                                            <!-- <div class="input-group-btn-vertical">
-                                                <button class="btn btn-default" type="button"><i class="fa fa-caret-up"></i></button>
-                                                <button class="btn btn-default" type="button"><i class="fa fa-caret-down"></i></button>
-                                            </div> -->
-                                            <script>
-                                                // Get the input element and buttons
-                                                const numberInput = document.getElementById('numberInput');
-                                                const incrementButton = document.getElementById('incrementButton');
-                                                const decrementButton = document.getElementById('decrementButton');
-                                        
-                                                // Set initial value
-                                                let currentValue = parseInt(numberInput.value, 10);
-                                        
-                                                // Add event listeners to buttons
-                                                incrementButton.addEventListener('click', () => {
-                                                    currentValue++;
-                                                    numberInput.value = currentValue;
-                                                });
-                                        
-                                                decrementButton.addEventListener('click', () => {
-                                                    currentValue--;
-                                                    numberInput.value = currentValue;
-                                                });
-                                            </script>
+                                    <div class="row">
+                                        <div class="col-4"><p>Asset</p></div>
+                                        <div class="col-8" id="select-part">
+                                            <select id="stockForm" class="form-select form-select-sm" aria-label="Small select example">
+                                                <option selected>Open this select menu</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <!-- Enter quantity -->
+                                        <!-- <div class="form-group" style="justify-content:center;display:flex;"> -->
+                                    <div class="row">
+                                        <div class="col-4"><p>Quantity</p></div>
+                                        <div class="col-8">
+                                            <div class="input-group spinner" style="margin: 5px;">
+                                                <button class="btn btn-outline-secondary" type="button" id="decrementButton">-</button>
+                                                <input type="text" class="form-control" value="1" id="numberInput">
+                                                <button class="btn btn-outline-secondary" type="button" id="incrementButton">+</button>
+                                                <!-- <div class="input-group-btn-vertical">
+                                                    <button class="btn btn-default" type="button"><i class="fa fa-caret-up"></i></button>
+                                                    <button class="btn btn-default" type="button"><i class="fa fa-caret-down"></i></button>
+                                                </div> -->
+                                                <script>
+                                                    // Get the input element and buttons
+                                                    const numberInput = document.getElementById('numberInput');
+                                                    const incrementButton = document.getElementById('incrementButton');
+                                                    const decrementButton = document.getElementById('decrementButton');
+                                            
+                                                    // Set initial value
+                                                    let currentValue = parseInt(numberInput.value, 10);
+                                            
+                                                    // Add event listeners to buttons
+                                                    incrementButton.addEventListener('click', () => {
+                                                        currentValue++;
+                                                        numberInput.value = currentValue;
+                                                    });
+                                            
+                                                    decrementButton.addEventListener('click', () => {
+                                                        currentValue--;
+                                                        numberInput.value = currentValue;
+                                                    });
+                                                </script>
+                                            </div>
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn btn-primary">Confirm</button>
+                                        <!-- </div> -->
+                                    <button type="submit" class="btn btn-primary" style="margin:5px">Confirm</button>
                                 </form>
                             </div>
                         </div>
@@ -222,16 +229,6 @@
 <script src="./scripts/getAllcrypto.js"></script>
 <script type="module" src="./linecharts.js"></script>
 <script src="./assetTables.js"></script>
-<script>
-    document.getElementById('myForm').addEventListener('submit', async function(event) {
-        event.preventDefault(); // Prevent the default form submission
-
-        const selectValue = document.getElementById('stockForm').value;
-        const inputValue = document.getElementById('numberInput').value;
-
-        console.log(selectValue)
-        console.log(inputValue)
-    });
-</script>
+<script src="./scripts/submit.js"></script>
 
 </html>
