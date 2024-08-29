@@ -5,7 +5,7 @@ import path from 'path'
 
 export const getHome = async (req, res) => {
     try {
-        //homeService.refreshAllStockPrice();
+        homeService.refreshAllStockPrice();
         const all = await homeService.getAll();
         // console.log(all)
         res.json(all);
