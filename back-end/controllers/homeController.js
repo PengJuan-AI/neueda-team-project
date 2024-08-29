@@ -5,7 +5,7 @@ import path from 'path'
 
 export const getHome = async (req, res) => {
     try {
-        homeService.refreshAllStockPrice();
+        // homeService.refreshAllStockPrice();
         const all = await homeService.getAll();
         // console.log(all)
         res.json(all);
@@ -27,7 +27,7 @@ export const calAllocation = async (req, res) => {
                 name: assetName[index]
             }
         })
-        console.log("Allocation:", newDataset)
+        // console.log("Allocation:", newDataset)
         res.json(newDataset);
     } catch (error) {
         res.status(500).send(error.message);
@@ -55,7 +55,7 @@ export const getStockJson = async (req, res) => {
         asset.forEach(v => {
             data.push({ name: v.symbol, value: Math.round(v.price * v.quantity) })
         })
-        // console.log(data)
+        console.log(data)
         res.json(data)
     } catch {
         res.status(500).send(error.message)

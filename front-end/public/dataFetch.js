@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
     $.ajax({
         url: "http://localhost:3000/",
@@ -21,7 +20,7 @@ $(document).ready(function () {
             });
             table.append(tbody);
 
-            $('#data-container').append(table);
+            // $('#data-container').append(table);
         },
         error: function (error) {
             console.log(error);
@@ -30,3 +29,4 @@ $(document).ready(function () {
 
     })
 })
+
