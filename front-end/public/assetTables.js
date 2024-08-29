@@ -3,7 +3,7 @@ $(document).ready(function () {
         url: "http://localhost:3000/all_stock",
         method: "GET",
         success: function (data) {
-            console.log("Data for table:", data)
+            // console.log("Data for table:", data)
             createTable('#table-container1', data)
         },
         error: function (error) {
@@ -19,7 +19,7 @@ $(document).ready(function () {
         url: "http://localhost:3000/all_crypto",
         method: "GET",
         success: function (data) {
-            console.log("Data for table:", data)
+            // console.log("Data for table:", data)
             createTable('#table-container2', data)
         },
         error: function (error) {
