@@ -18,11 +18,12 @@
 
 <body>
     <!-- header -->
-    <div class="header-container" style="margin-left: 30px; margin-right: 30px; margin-bottom: 30px;">
-        <div id="header" class="row" style="height: 80px;">
+    <div class="header-container" style="margin-left: 30px; margin-right: 30px; margin-bottom: 30px; 
+    background-color: rgb(191, 229, 250);">
+        <div id="header" class="row" style="height: 100px;">
             <button id="sign-out-button" class="btn btn-primary" type="submit">Logout</button>
             <div class="col-12">
-                <h1>This is a header</h1>
+                <img id="logo" src="./static/Pisces.svg" >
             </div>
         </div>
     </div>
@@ -30,14 +31,15 @@
     <!-- Two Cols 3+9 -->
     <div class="body-container">
         <div class="row">
-            <div class="col-3" style="background-color: rgb(250, 233, 249); border-radius: 15px;">
+            <div class="col-3" style="background-color: rgb(253, 199, 222); border-radius: 15px;">
                 <div class="card" style="background-color: rgba(0, 0, 0, 0); border: none; ">
                     <div class="card-img-wrapper" style="display: flex; justify-content: center;">
                         <img src="./static/Barbie.png" class="card-img-top" alt="photo of Barbie" style="border-radius: 50%;
                          width: 250px; height: auto;">                         
                     </div>
-                    <div class="card-body" style="background-color: pink; margin: 30px; border-radius: 15px;">
-                        <h5 class="card-title" style="text-align: center;">Barbie</h5>
+                    <div class="card-body" style="background-color:rgb(254, 132, 179); margin: 30px; border-radius: 15px;">
+                        <h4 class="card-title" style="text-align: center;">Barbie</h4>
+                        <h6 style="text-align: center;">3.5M followers</h6>
                         <p class="card-text">Contact: (+1)2132735776</p>
                         <p class="card-text">Age: 18</p>
                         <p class="card-text">Address: Hollywood Blvd, Los Angeles. CA 90028</p>
@@ -48,11 +50,11 @@
             </div>
             <!-- content body -->
             <div class="col-9">
-                <div style="border-radius: 15px; background-color: rgb(250, 233, 249); padding: 10px;">
+                <div style="border-radius: 15px; background-color: rgb(253, 199, 222); padding: 10px;">
                     <!-- level 1 -->
                     <div class="row" style="margin: 10px;">
                         <div class="col-6" >
-                        <div id="donut-container" style="border-radius: 15px; background-color: pink; display: block;
+                        <div id="donut-container" style="border-radius: 15px; background-color: rgb(252, 222, 220); display: block;
                         display: flex; justify-content: center; flex-direction:column;">
                             <div id="donut" style="width: 20rem; height:20rem"></div>
                             <div class="button-container" style="margin-bottom: 15px;">
@@ -67,7 +69,7 @@
                         </div>
                                       
                         <div  class="col-6" >
-                            <div id="doc-container" style="border-radius: 15px; background-color: pink; padding: 10px;">
+                            <div id="doc-container" style="border-radius: 15px; background-color: rgb(252, 222, 220); padding: 10px;">
                                 <p>test</p>
                             </div>
                         </div>
@@ -76,37 +78,39 @@
                     <!-- level 2 -->
                     <div class="row" style="margin: 10px;">
                         <div class="col-4">
-                        <div id="table1-container" style="border-radius: 15px; background-color: pink; display: block;
-                        display: flex; justify-content: center; flex-direction:column;">
+                        <div id="table1-container" style="border-radius: 15px; background-color: rgb(252, 222, 220); display: block;
+                        display: flex; justify-content: center; flex-direction:column; margin: 10px;">
                             <!-- <div id="data-container"></div> -->
+                             <div>
+                             
                             <div id="table-container1"></div>
+                            </div>
                         </div>
                         </div>
                         <div class="col-8">
-                            <div id="table1-container" style="border-radius: 15px; background-color: pink; display: block;
-                        display: flex; justify-content: center; flex-direction:column;">
+                            <div id="line1-container" style="border-radius: 15px; background-color: rgb(252, 222, 220);
+                        display: flex; justify-content: center; margin: 10px;">
                             <div id="linechart1" style="width: 30rem; height:20rem"></div>
                         </div>
                         </div>
                     </div>
 
                     <!-- level 3 -->
-                    <div class="row">
-                        <div class="col-6">
-                            <div id="table1-container" style="border-radius: 15px; background-color: pink; display: block;
-                        display: flex; justify-content: center; flex-direction:column;">
+                    <div class="row" style="margin: 10px;">
+                        <div class="col-4">
+                        <div id="table2-container" style="border-radius: 15px; background-color: rgb(252, 222, 220); display: block;
+                        display: flex; justify-content: center; flex-direction:column; margin: 10px;">
+
                             <div id="table-container2"></div>
                         </div>
-                            <div id="linechart1" style="width: 30rem; height:20rem"></div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-8">
+                        <div id="line1-container" style="border-radius: 15px; background-color: rgb(252, 222, 220); display: block;
+                        display: flex; justify-content: center;">
                             <div id="linechart2" style="width: 30rem; height:20rem"></div>
                         </div>
+                        </div>
                     </div>
-
-
-                    
-
                 </div>
                 
                 <!-- Button trigger modal -->
