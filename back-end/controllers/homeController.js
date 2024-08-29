@@ -16,6 +16,22 @@ export const getHome = async (req, res) => {
 
 };
 
+export const getNetworth = async (req, res) => {
+    try {
+        const all = await homeService.getAll();
+        // console.log(all)
+        const newDataset = all.map((arr, index) => {
+            return  Math.round(arr.reduce((acc, v) => acc + v.price * v.quantity, 0)*100)/100
+        }).reduce((acc, v)=> {return acc+v}, 0)
+        console.log(newDataset)
+        res.json(newDataset);
+        // res.data(newDataset);
+    } catch (error) {
+        res.status(500).send(error.message);
+    }
+
+};
+
 export const calAllocation = async (req, res) => {
     try {
         const all = await homeService.getAll();
@@ -77,8 +93,8 @@ export const getStockBySymbol = async (req, res) => {
 
 export const changeStockQuantity = async (req, res) => {
     try {
-        //console.log(req.params);
-        const changeStockQuantity = await homeService.changeStockQuantity(req.params.symbol, req.body);
+        console.log(req.body);
+        const changeStockQuantity = await homeService.changeStockQuantity(req.body.symbol, req.body.quantity);
         if (changeStockQuantity) {
             res.json(changeStockQuantity);
         } else {

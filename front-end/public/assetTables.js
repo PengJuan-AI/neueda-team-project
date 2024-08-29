@@ -30,6 +30,21 @@ $(document).ready(function () {
     })
 })
 
+$(document).ready(function(){
+    $.ajax({
+        url: "http://localhost:3000/get_networth",
+        method: "GET",
+        success: function (data) {
+            console.log("Net Worth", data)
+            $('#networth').text(data)
+
+        },
+        error: function (error) {
+            console.log(error);
+        }
+    })
+})
+
 function createTable(container, data){
     var table = $('<table class="table"></table>');
     var thead = $('<thead><tr><th scope="col">Symbol</th><th scope="col">Value</th></tr></thead>');
