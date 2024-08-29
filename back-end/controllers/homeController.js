@@ -16,6 +16,22 @@ export const getHome = async (req, res) => {
 
 };
 
+export const getNetworth = async (req, res) => {
+    try {
+        const all = await homeService.getAll();
+        // console.log(all)
+        const newDataset = all.map((arr, index) => {
+            return  Math.round(arr.reduce((acc, v) => acc + v.price * v.quantity, 0)*100)/100
+        }).reduce((acc, v)=> {return acc+v}, 0)
+        console.log(newDataset)
+        res.json(newDataset);
+        // res.data(newDataset);
+    } catch (error) {
+        res.status(500).send(error.message);
+    }
+
+};
+
 export const calAllocation = async (req, res) => {
     try {
         const all = await homeService.getAll();
