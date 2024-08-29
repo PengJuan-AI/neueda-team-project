@@ -35,11 +35,15 @@ function createTable(container, data){
     var thead = $('<thead><tr><th scope="col">Symbol</th><th scope="col">Value</th></tr></thead>');
     table.append(thead)
     var tbody = $('<tbody></tbody>');
+    var count =1;
     $.each(data, (index, asset) => {
+        if (count!==7){
             var row = $('<tr></tr>');
             row.append('<th scope="row">' + asset.name + '</th>')
             row.append('<td>' + asset.value + '</td>');
+            count += 1;
             tbody.append(row);
+        }
     });
     table.append(tbody);
 
