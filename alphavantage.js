@@ -54,8 +54,7 @@ axios.get(url, {
     console.log('Error:', error.message);
 });
 */
-
-
+/*
 import axios from 'axios';
 
 const symbols = ["NVDA", "TSLA", "INTC", "AMD", "IQ", "SNOW", "AAPL", "BILI", "AMZN", "JD"];
@@ -107,4 +106,32 @@ async function fetchAllStockData() {
 fetchAllStockData()
 
 // Export the fetchAllStockData function
-export { fetchAllStockData };
+export { fetchAllStockData }
+*/
+
+import axios from 'axios';
+
+const symbols = ["600519", "601857", "002594", "300760", "AAPL", "AMZN", "NVDA", "TSLA", "ULVR.L", "HSBA.L"];
+const apiKey = '942DOP06QJW03OOZ';
+const baseUrl = 'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&entitlement=delayed&apikey=' + apiKey;
+
+symbols.forEach(symbol => {
+    const url = `${baseUrl}&symbol=${symbol}`;
+
+    axios.get(url, {
+        headers: {'User-Agent': 'axios'}
+    })
+    .then(response => {
+        if (response.status !== 200) {
+            console.log('Status:', response.status);
+        } else {
+            const globalQuote = response.data['Global Quote - DATA DELAYED BY 15 MINUTES'];
+            const price = globalQuote['05. price'];
+            const change = globalQuote['10. change percent'];
+            console.log([symbol, price, change]);
+        }
+    })
+    .catch(error => {
+        console.log('Error:', error.message);
+    });
+});
