@@ -30,9 +30,9 @@ const getStockBySymbol = async (symbol) => {
     return rows;
 };
 
-const changeStockQuantity = async (symbol, stockData) => {
-    const {quantity} = stockData;
-    //console.log(quantity);
+const changeStockQuantity = async (symbol, quantity) => {
+    // const {quantity} = stockData;
+    console.log(quantity);
     const [rows] = await connection.query(
         'UPDATE stock SET quantity = ? WHERE symbol = ?',
         [quantity, symbol]

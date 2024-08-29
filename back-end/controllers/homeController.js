@@ -77,8 +77,8 @@ export const getStockBySymbol = async (req, res) => {
 
 export const changeStockQuantity = async (req, res) => {
     try {
-        //console.log(req.params);
-        const changeStockQuantity = await homeService.changeStockQuantity(req.params.symbol, req.body);
+        console.log(req.body);
+        const changeStockQuantity = await homeService.changeStockQuantity(req.body.symbol, req.body.quantity);
         if (changeStockQuantity) {
             res.json(changeStockQuantity);
         } else {

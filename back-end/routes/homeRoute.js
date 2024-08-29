@@ -15,7 +15,7 @@ router.get('/cal_allocation', homeController.calAllocation);
 router.get('/all_crypto', homeController.getCryptoJson);
 router.get('/all_stock', homeController.getStockJson);
 router.get('/:symbol', homeController.getStockBySymbol);
-router.put('/:symbol', homeController.changeStockQuantity);
+router.put('/update', homeController.changeStockQuantity);
 
 
 export default router;
