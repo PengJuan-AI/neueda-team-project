@@ -1,4 +1,7 @@
 import allCrypto from './static/cryptoTable.json' with { type: 'json' };
+// import { fetchAllStockData } from './scripts/stock_data.js'
+
+// allStock = fetchAllStockData()
 // const allData = [{
 //     "symbol": "DCR",
 //     "data": [
@@ -444,7 +447,5 @@ function drawLinechart(id, histData){
     // linechart2.setOption(option)
 }
 
-// [dateList, series] = parseData(allCrypto)
-// console.log(series)
-drawLinechart('linechart1', allCrypto)
+// drawLinechart('linechart1', allStock)
 drawLinechart('linechart2', allCrypto)

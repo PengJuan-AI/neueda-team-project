@@ -55,7 +55,7 @@ export const getStockJson = async (req, res) => {
         asset.forEach(v => {
             data.push({ name: v.symbol, value: Math.round(v.price * v.quantity) })
         })
-        console.log(data)
+        // console.log(data)
         res.json(data)
     } catch {
         res.status(500).send(error.message)
