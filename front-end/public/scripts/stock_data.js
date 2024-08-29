@@ -1,4 +1,4 @@
-import axios from './axios';
+import axios from 'axios';
 
 const symbols = ["NVDA", "TSLA", "INTC", "AMD", "IQ", "SNOW", "AAPL", "BILI", "AMZN", "JD"];
 const apiKey = '942DOP06QJW03OOZ';
