@@ -23,7 +23,7 @@ export const getNetworth = async (req, res) => {
         const newDataset = all.map((arr, index) => {
             return  Math.round(arr.reduce((acc, v) => acc + v.price * v.quantity, 0)*100)/100
         }).reduce((acc, v)=> {return acc+v}, 0)
-        console.log(newDataset)
+        // console.log(newDataset)
         res.json(newDataset);
         // res.data(newDataset);
     } catch (error) {

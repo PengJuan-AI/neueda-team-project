@@ -1,5 +1,6 @@
 import allCrypto from './static/cryptoTable.json' with { type: 'json' };
-// import { fetchAllStockData } from './scripts/stock_data.js'
+import allStock from './static/stockData.json' with { type: 'json' };
+
 
 // allStock = fetchAllStockData()
 
@@ -48,10 +49,12 @@ function drawLinechart(id, histData){
         title: [
             {
                 left: 'center',
-                text: 'Gradient along the y axis'
+                top: '5%',
+                text: 'Historical Data of Holdings'
             },
         ],
         legend: {
+            bottom: '10%'
             // data: series.map(s => s.name)
         },
         tooltip: {
@@ -84,5 +87,5 @@ function drawLinechart(id, histData){
     // linechart2.setOption(option)
 }
 
-// drawLinechart('linechart1', allStock)
+drawLinechart('linechart1', allStock)
 drawLinechart('linechart2', allCrypto)

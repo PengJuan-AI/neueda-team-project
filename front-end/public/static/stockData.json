@@ -1,6 +1,6 @@
 [
   {
-    "Symbol": "NVDA",
+    "symbol": "NVDA",
     "data": [
       {
         "date": "2024-08-28",
@@ -405,7 +405,7 @@
     ]
   },
   {
-    "Symbol": "TSLA",
+    "symbol": "TSLA",
     "data": [
       {
         "date": "2024-08-28",
@@ -810,7 +810,7 @@
     ]
   },
   {
-    "Symbol": "INTC",
+    "symbol": "INTC",
     "data": [
       {
         "date": "2024-08-28",
@@ -1215,7 +1215,7 @@
     ]
   },
   {
-    "Symbol": "AMD",
+    "symbol": "AMD",
     "data": [
       {
         "date": "2024-08-28",
@@ -1620,7 +1620,7 @@
     ]
   },
   {
-    "Symbol": "IQ",
+    "symbol": "IQ",
     "data": [
       {
         "date": "2024-08-28",
@@ -2025,7 +2025,7 @@
     ]
   },
   {
-    "Symbol": "SNOW",
+    "symbol": "SNOW",
     "data": [
       {
         "date": "2024-08-28",
@@ -2430,7 +2430,7 @@
     ]
   },
   {
-    "Symbol": "AAPL",
+    "symbol": "AAPL",
     "data": [
       {
         "date": "2024-08-28",
@@ -2835,7 +2835,7 @@
     ]
   },
   {
-    "Symbol": "BILI",
+    "symbol": "BILI",
     "data": [
       {
         "date": "2024-08-28",
@@ -3240,7 +3240,7 @@
     ]
   },
   {
-    "Symbol": "AMZN",
+    "symbol": "AMZN",
     "data": [
       {
         "date": "2024-08-28",
@@ -3645,7 +3645,7 @@
     ]
   },
   {
-    "Symbol": "JD",
+    "symbol": "JD",
     "data": [
       {
         "date": "2024-08-28",
