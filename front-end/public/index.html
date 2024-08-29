@@ -18,13 +18,13 @@
 
 <body>
     <!-- header -->
-    <div class="header-container" style="margin-left: 30px; margin-right: 40px; margin-bottom: 20px; 
+    <div class="header-container" style="margin-left: 30px; margin-right: 40px; margin-bottom: 20px; margin-top: 10px; 
     background-color: rgb(191, 229, 250); border-radius: 15px;">
         <div id="header" class="row" style="height: 100px;">
-            <button id="sign-out-button" class="btn btn-primary" type="submit">Logout</button>
+            <button id="log-out-button" class="btn btn-primary" type="submit" >Logout</button>
             <div class="col-12">
                 <img id="logo" src="./static/logo_graphic.png" >
-
+                <img id="logo-text" src="./static/logo_text.png">
             </div>
         </div>
     </div>
@@ -40,12 +40,11 @@
                     </div>
                     <div class="card-body"
                         style="background-color:rgb(254, 132, 179); margin: 30px; border-radius: 15px;">
-                        <h4 class="card-title" style="text-align: center;">Barbie</h4>
-                        <h6 style="text-align: center;">3.5M followers</h6>
+                        <h2 class="card-title" style="text-align: center;">Barbie</h2>
+                        <h5 style="text-align: center;">3.5M followers</h5>
                         <p class="card-text">Contact: (+1)2132735776</p>
                         <p class="card-text">Age: 18</p>
-                        <p class="card-text">Address: Hollywood Blvd, Los Angeles. CA 90028</p>
-                        <a href="#" class="btn btn-primary">More</a>
+                        <p class="card-text">Address: Hollywood Blvd, Los Angeles, CA 90028</p>
                     </div>
                 </div>
 
@@ -61,11 +60,11 @@
                                 <div id="donut" style="width: 20rem; height:20rem"></div>
                                 <div class="button-container" style="margin-bottom: 15px;">
                                     <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                        data-bs-target="#piechart1">
+                                        data-bs-target="#piechart1" style="border-radius: 15px;">
                                         crypto
                                     </button>
                                     <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                        data-bs-target="#piechart2">
+                                        data-bs-target="#piechart2" style="border-radius: 15px;">
                                         stock
                                     </button>
                                 </div>
@@ -125,7 +124,8 @@
                                         </div>
                                     </div>
                                         <!-- </div> -->
-                                    <button type="submit" class="btn btn-primary" style="margin:5px">Confirm</button>
+                                    <button type="submit" class="btn btn-primary" 
+                                    style="margin:5px; border-radius: 15px; width: 90px; margin-left: 200px;">Confirm</button>
                                 </form>
                             </div>
                         </div>
@@ -134,12 +134,11 @@
                     <!-- level 2 -->
                     <div class="row" style="margin: 10px;">
                         <div class="col-4">
-                            <div id="table1-container" style="border-radius: 15px; background-color: rgb(252, 222, 220); display: block;
+                            <div id="table1-container" style="border-radius: 15px; background-color: rgb(252, 222, 220);
                         display: flex; justify-content: center; flex-direction:column; margin: 10px;">
-                            <!-- <div id="data-container"></div> -->
-                            <div style="margin: 10px;">                            
+                            <div style="margin: 20px;">
+                                <h4 style="margin-left: 20px;">Stock Quote</h4>                            
                                 <div id="table-container1"></div>
-
                             </div>
                         </div>
                         <div class="col-8">
@@ -154,7 +153,7 @@
                     <div class="row" style="margin: 10px;">
                         <div class="col-4">
                             <div id="table2-container" style="border-radius: 15px; background-color: rgb(252, 222, 220); display: block;
-                        display: flex; justify-content: center; flex-direction:column; margin: 10px;">
+                        display: flex; justify-content: center; flex-direction:column;">
 
                                 <div id="table-container2"></div>
                             </div>
