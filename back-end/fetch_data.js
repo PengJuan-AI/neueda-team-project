@@ -1,5 +1,5 @@
-// const axios = require('axios');
-import axios from 'axios';
+const axios = require('axios');
+const fs = require('fs');
 
 async function getDataFromPythonAPI() {
     try {
@@ -26,7 +26,20 @@ async function getDataFromPythonAPI() {
         // Converting the object to an array of the desired format
         const result = Object.values(formattedData);
 
+        // Log the formatted data
         console.log('Formatted Data:', JSON.stringify(result, null, 4));
+
+        // Check if result has data
+        if (result.length > 0) {
+            console.log('Attempting to write data to cryptoTable.json');
+            
+            // Write the formatted data to a file named 'cryptoTable.json'
+            fs.writeFileSync('cryptoTable.json', JSON.stringify(result, null, 4));
+
+            console.log('Data has been successfully written to cryptoTable.json');
+        } else {
+            console.log('No data to write.');
+        }
 
         return result;
     } catch (error) {

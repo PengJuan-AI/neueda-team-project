@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: coinapi.rest.v1
+Version: 1.3
+Summary: SDKs for CoinAPI
+Home-page: https://docs.coinapi.io/
+Author: Tomasz Przybysz
+Author-email: tom.przybysz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+Requirements:
+ * Python >= 3
+
+To run examples:
+
+```bash
+git clone https://github.com/coinapi/coinapi-sdk/
+cd coinapi-sdk/python-rest/coinapi_rest_v1
+# edit examples.py, fill your API key inside of it
+python examples.py YOUR_API_KEY
+```
+
+
