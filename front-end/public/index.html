@@ -49,14 +49,25 @@
             <div class="col-9">
                 <div style="border-radius: 15px; background-color: rgb(250, 233, 249); padding: 10px;">
                     <div class="row" style="margin: 10px;">
-                        <div id="donut-container" class="col-5" style="border-radius: 15px; background-color: pink;">
+                        <div class="col-6" >
+                        <div id="donut-container" style="border-radius: 15px; background-color: pink; display: block;
+                        display: flex; justify-content: center; flex-direction:column;">
                             <div id="donut" style="width: 20rem; height:20rem"></div>
+                            <div class="button-container" style="margin-bottom: 15px;">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#piechart1">
+                                    crypto
+                                </button>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#piechart2">
+                                    stock
+                                </button>
+                            </div>
+                        </div>                          
                         </div>
-                        <div id="tranparent" class="col-1"></div>
-               
-                        <div id="doc-container" class="col-5" style="border-radius: 15px; background-color: pink; ;">
-                            <p>test</p>
-
+                                      
+                        <div  class="col-6" >
+                            <div id="doc-container" style="border-radius: 15px; background-color: pink; padding: 10px;">
+                                <p>test</p>
+                            </div>
                         </div>
                     </div>    
                     
@@ -64,12 +75,7 @@
                 </div>
                 
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#piechart1">
-                    crypto
-                </button>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#piechart2">
-                    stock
-                </button>
+                
                 <!-- crypto piechart modal -->
                 <div class="modal fade" id="piechart1" data-bs-backdrop="static" data-bs-keyboard="false"
                     tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
