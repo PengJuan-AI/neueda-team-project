@@ -24,7 +24,7 @@ $(document).ready(function() {
                         method: "GET",
                         success: function (data) {
                             console.log("Net Worth", data)
-                            $('#networth').text(data)
+                            $('#networth').text('$'+data)
 
                         },
                         error: function (error) {
