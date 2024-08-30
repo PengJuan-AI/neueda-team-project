@@ -55,7 +55,9 @@ export const getCryptoJson = async (req, res) => {
         const asset = await homeService.getAllCrypto();
         const data = []
         asset.forEach(v => {
-            data.push({ name: v.symbol, value: Math.round(v.price * v.quantity) })
+            data.push({ name: v.symbol, 
+                value: Math.round(v.price * v.quantity),
+                pct: v.change_percent })
         })
         // console.log(data)
         res.json(data)
@@ -69,7 +71,12 @@ export const getStockJson = async (req, res) => {
         const asset = await homeService.getAllStock();
         const data = []
         asset.forEach(v => {
-            data.push({ name: v.symbol, value: Math.round(v.price * v.quantity) })
+            data.push(
+                {   name: v.symbol, 
+                    value: Math.round(v.price * v.quantity),
+                    pct: v.change_percent
+                 }
+            )
         })
         // console.log(data)
         res.json(data)

@@ -36,7 +36,7 @@ $(document).ready(function(){
         method: "GET",
         success: function (data) {
             console.log("Net Worth", data)
-            $('#networth').text(data)
+            $('#networth').text('$'+data)
 
         },
         error: function (error) {
@@ -47,7 +47,7 @@ $(document).ready(function(){
 
 function createTable(container, data){
     var table = $('<table class="table"></table>');
-    var thead = $('<thead><tr><th scope="col">Symbol</th><th scope="col">Value</th></tr></thead>');
+    var thead = $('<thead><tr><th scope="col">Symbol</th><th scope="col">Value</th><th scope="col">Pct</th></tr></thead>');
     table.append(thead)
     var tbody = $('<tbody></tbody>');
     var count =1;
@@ -56,6 +56,7 @@ function createTable(container, data){
             var row = $('<tr></tr>');
             row.append('<th scope="row">' + asset.name + '</th>')
             row.append('<td>' + asset.value + '</td>');
+            row.append('<td>' + asset.pct + '</td>');
             count += 1;
             tbody.append(row);
         }

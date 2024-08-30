@@ -54,7 +54,7 @@ function drawLinechart(id, histData){
             },
         ],
         legend: {
-            bottom: '10%'
+            bottom: '-20%'
             // data: series.map(s => s.name)
         },
         tooltip: {
